@@ -1,0 +1,26 @@
+{
+  "name": "thailand-geography-json",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JSON files for Thailand's geography data, including provinces, districts, subdistricts, and postal codes, adhering to best practices for optimal performance, ease of maintenance, and comprehensibility.",
+  "keywords": [
+    "data",
+    "districts",
+    "geography",
+    "json",
+    "provinces",
+    "subdistricts",
+    "thailand"
+  ],
+  "homepage": "https://github.com/thailand-geography-data/thailand-geography-json#readme",
+  "bugs": {
+    "url": "https://github.com/thailand-geography-data/thailand-geography-json/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thailand-geography-data/thailand-geography-json.git"
+  },
+  "license": "MIT",
+  "author": "Joe Takara <anuchit.boonsom@gmail.com>",
+  "main": "src/geography.json"
+}
