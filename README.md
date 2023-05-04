@@ -1,69 +1,56 @@
-# Thailand Geography JSON
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/44985154/236343827-717d7324-91a6-4ed1-9d8c-c1db7c17357e.png" alt="Thailand Geography JSON">
+</div>
 
-This project contains JSON files for Thailand's geography data, including provinces, districts, subdistricts, and geography information. The data is well-structured and adheres to best practices to ensure optimal performance, ease of maintenance, and comprehensibility.
+<h1 align="center">Thailand Geography JSON</h1>
 
-## File Structure
+<p align="center">A user-friendly collection of well-structured JSON files containing geographical data of Thailand, including provinces, districts, subdistricts, and postal codes.</p>
 
-The project structure is as follows:
+<p align="center">
+  <a href="https://github.com/thailand-geography-data/thailand-geography-json/blob/main/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green.svg" />
+  </a>
+  <a href="https://github.com/thailand-geography-data/thailand-geography-json/blob/main/CHANGELOG.md">
+    <img alt="version" src="https://img.shields.io/github/package-json/v/thailand-geography-data/thailand-geography-json" />
+  </a>
+  <a href="https://github.com/thailand-geography-data/thailand-geography-json/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22">
+    <img alt="Help Wanted" src="https://img.shields.io/github/issues/thailand-geography-data/thailand-geography-json" />
+  </a>
+</p>
 
+---
+
+## Contents
+
+- [Important Files Overview](#important-files-overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [JSON Keys](#json-keys)
+- [Sample Data](#sample-data)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
+- [Changelog](#changelog)
+
+## Important Files Overview
+
+Discover the main JSON files with geographical data in the `src/` directory:
+
+- `geography.json` - All-in-one data for provinces, districts, and subdistricts, including postal codes.
+- `provinces.json` - The 77 Thai provinces with their codes and names in English and Thai.
+- `districts.json` - The 928 Thai districts with codes, names in English and Thai, and related province codes.
+- `subdistricts.json` - The 7,436 Thai subdistricts with codes, names in English and Thai, and corresponding district and province codes.
+
+## Installation
+
+This project doesn't require any specific installation steps, as it consists of static JSON files. To use the data in your project, simply download the JSON files or clone the repository using the following command:
+
+```bash
+git clone https://github.com/thailand-geography-data/thailand-geography-json.git
 ```
-thailand-geography-json/
-├── src/
-│ ├── districts.json
-│ ├── geography.json
-│ ├── provinces.json
-│ ├── subdistricts.json
-├── .editorconfig
-├── .gitignore
-├── CHANGELOG.md
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── package.json
-├── LICENSE
-└── README.md
-```
 
-### Key files and directories
+## Usage
 
-- `src/` - Contains the JSON files with the geography data.
-
-  - `geography.json` - Contains comprehensive information for provinces, districts, and subdistricts, including postal codes.
-  - `provinces.json` - Contains information about the 77 Thai provinces, including province codes and names in both English and Thai.
-  - `districts.json` - Contains information about the 928 Thai districts, including district codes, names in both English and Thai, and the province code they belong to.
-  - `subdistricts.json` - Contains information about the 7436 Thai subdistricts, including subdistrict codes, names in both English and Thai, and the district and province code they belong to.
-
-- `.gitignore` - Lists files and directories that should not be tracked by Git.
-
-- `.editorconfig` - Helps maintain consistent coding styles across different text editors and IDEs.
-
-- `CONTRIBUTING.md` - Provides guidelines for contributors to the project.
-
-- `CODE_OF_CONDUCT.md` - Outlines expectations for contributors and helps maintain a welcoming and inclusive community.
-
-- `CHANGELOG.md` - Documents significant changes in the project.
-
-- `package.json` - Manages dependencies and scripts for the project.
-
-- `LICENSE` - Contains the MIT License for the project.
-
-- `README.md` - Provides an overview of the project and instructions for usage.
-
-## JSON Keys
-
-The following keys are used in the JSON files:
-
-- `provinceCode` - Province code, should be a number.
-- `provinceNameEn` - Province name in English.
-- `provinceNameTh` - Province name in Thai.
-- `districtCode` - District code, should be a number.
-- `districtNameEn` - District name in English.
-- `districtNameTh` - District name in Thai.
-- `subdistrictCode` - Subdistrict code, should be a number.
-- `subdistrictNameEn` - Subdistrict name in English.
-- `subdistrictNameTh` - Subdistrict name in Thai.
-- `postalCode` - Postal code, should be a number with a length of 5.
-
-## Example Usage
+You can directly import the JSON files into your project and use the data as needed. Below are some examples of how to import and use the JSON data in different programming languages:
 
 ### JavaScript
 
@@ -73,21 +60,114 @@ import provinces from "./src/provinces.json";
 import districts from "./src/districts.json";
 import subdistricts from "./src/subdistricts.json";
 
-// Do something with the geography data, such as display it in a table or map
+// Utilize the geography data as needed, for example:
+// - Display data in a table
+// - Render data on a map
+// - Perform data analysis and visualization
 ```
 
-## Copyright and License
+### Python
+
+```python
+import json
+
+with open('./src/geography.json', 'r') as f:
+    geography = json.load(f)
+
+with open('./src/provinces.json', 'r') as f:
+    provinces = json.load(f)
+
+with open('./src/districts.json', 'r') as f:
+    districts = json.load(f)
+
+with open('./src/subdistricts.json', 'r') as f:
+    subdistricts = json.load(f)
+
+# Utilize the geography data as needed, for example:
+# - Display data in a table
+# - Render data on a map
+# - Perform data analysis and visualization
+```
+
+## JSON Keys
+
+Get to know the keys used in the JSON files:
+
+- `provinceCode` - Province code (2-digit number).
+- `provinceNameEn` - Province name in English (string).
+- `provinceNameTh` - Province name in Thai (string).
+- `districtCode` - District code (4-digit number).
+- `districtNameEn` - District name in English (string).
+- `districtNameTh` - District name in Thai (string).
+- `subdistrictCode` - Subdistrict code (6-digit number).
+- `subdistrictNameEn` - Subdistrict name in English (string).
+- `subdistrictNameTh` - Subdistrict name in Thai (string).
+- `postalCode` - Postal code (5-digit number).
+
+## Sample Data
+
+Check out sample data from each JSON file:
+
+### provinces.json
+
+```json
+{
+  "provinceCode": 10,
+  "provinceNameEn": "Bangkok",
+  "provinceNameTh": "กรุงเทพมหานคร"
+}
+```
+
+### districts.json
+
+```json
+{
+  "provinceCode": 10,
+  "districtCode": 1001,
+  "districtNameEn": "Phra Nakhon",
+  "districtNameTh": "พระนคร",
+  "postalCode": 10200
+}
+```
+
+### subdistricts.json
+
+```json
+{
+  "provinceCode": 10,
+  "districtCode": 1001,
+  "subdistrictCode": 100101,
+  "subdistrictNameEn": "Phra Borom Maha Ratchawang",
+  "subdistrictNameTh": "พระบรมมหาราชวัง",
+  "postalCode": 10200
+}
+```
+
+### geography.json
+
+```json
+{
+  "provinceCode": 10,
+  "provinceNameEn": "Bangkok",
+  "provinceNameTh": "กรุงเทพมหานคร",
+  "districtCode": 1001,
+  "districtNameEn": "Phra Nakhon",
+  "districtNameTh": "พระนคร",
+  "subdistrictCode": 100101,
+  "subdistrictNameEn": "Phra Borom Maha Ratchawang",
+  "subdistrictNameTh": "พระบรมมหาราชวัง",
+  "postalCode": 10200
+}
+```
+
+## How to Contribute
+
+To learn how to contribute to the project, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## License
 
 Copyright (c) 2023-Present Joe Takara. This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contributing
-
-For details on how to contribute to the project, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## Code of Conduct
-
-For details on our code of conduct and the process for submitting pull requests, please read the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) file.
-
 ## Changelog
 
-For details on the changes made in each version, please refer to the [CHANGELOG.md](CHANGELOG.md) file.
+For information on the changes made in each version, please refer to the [CHANGELOG.md](CHANGELOG.md) file.
