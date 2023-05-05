@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2023-05-06
+
+### Added
+
+- Added `id` key with an integer value to each object in the following files:
+  1. `src/provinces.json`
+  2. `src/districts.json`
+  3. `src/subdistricts.json`
+  4. `src/geography.json`
+
+### Changed
+
+- Updated `README.md` to reflect the addition of the `id` key in the JSON files.
+
 ## [1.0.1] - 2023-05-05
 
 ### Added
