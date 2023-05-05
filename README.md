@@ -112,6 +112,7 @@ Check out sample data from each JSON file:
 
 ```json
 {
+  "id": 1,
   "provinceCode": 10,
   "provinceNameEn": "Bangkok",
   "provinceNameTh": "กรุงเทพมหานคร"
@@ -122,6 +123,7 @@ Check out sample data from each JSON file:
 
 ```json
 {
+  "id": 1,
   "provinceCode": 10,
   "districtCode": 1001,
   "districtNameEn": "Phra Nakhon",
@@ -134,6 +136,7 @@ Check out sample data from each JSON file:
 
 ```json
 {
+  "id": 1,
   "provinceCode": 10,
   "districtCode": 1001,
   "subdistrictCode": 100101,
@@ -147,6 +150,7 @@ Check out sample data from each JSON file:
 
 ```json
 {
+  "id": 1,
   "provinceCode": 10,
   "provinceNameEn": "Bangkok",
   "provinceNameTh": "กรุงเทพมหานคร",
