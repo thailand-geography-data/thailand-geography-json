@@ -507,7 +507,7 @@
     "id": 64,
     "provinceCode": 13,
     "districtCode": 1302,
-    "districtNameEn": "khlong Luang",
+    "districtNameEn": "Khlong Luang",
     "districtNameTh": "คลองหลวง",
     "postalCode": 12120
   },
@@ -1292,7 +1292,7 @@
     "provinceCode": 23,
     "districtCode": 2303,
     "districtNameEn": "Khao Saming",
-    "districtNameTh": "เขา��ม��ง",
+    "districtNameTh": "เขาสมิง",
     "postalCode": 23130
   },
   {
@@ -3764,7 +3764,7 @@
     "provinceCode": 46,
     "districtCode": 4607,
     "districtNameEn": "Yang Talat",
-    "districtNameTh": "ยา���ตลาด",
+    "districtNameTh": "ยางตลาด",
     "postalCode": 46120
   },
   {
@@ -5987,7 +5987,7 @@
     "id": 749,
     "provinceCode": 73,
     "districtCode": 7301,
-    "districtNameEn": "mueang Nakhon Pathom",
+    "districtNameEn": "Mueang Nakhon Pathom",
     "districtNameTh": "เมืองนครปฐม",
     "postalCode": 73000
   },
