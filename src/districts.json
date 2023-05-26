@@ -595,7 +595,7 @@
     "id": 75,
     "provinceCode": 14,
     "districtCode": 1406,
-    "districtNameEn": "Bang Pa-in",
+    "districtNameEn": "Bang Pa-In",
     "districtNameTh": "บางปะอิน",
     "postalCode": 13160
   },
@@ -2715,7 +2715,7 @@
     "id": 340,
     "provinceCode": 36,
     "districtCode": 3615,
-    "districtNameEn": "Noen Sa-nga",
+    "districtNameEn": "Noen Sa-Nga",
     "districtNameTh": "เนินสง่า",
     "postalCode": 36130
   },
@@ -3139,7 +3139,7 @@
     "id": 393,
     "provinceCode": 41,
     "districtCode": 4105,
-    "districtNameEn": "Non Sa-at",
+    "districtNameEn": "Non Sa-At",
     "districtNameTh": "โนนสะอาด",
     "postalCode": 41240
   },
@@ -3891,7 +3891,7 @@
     "id": 487,
     "provinceCode": 47,
     "districtCode": 4705,
-    "districtNameEn": "Phanh khon",
+    "districtNameEn": "Phanh Khon",
     "districtNameTh": "พังโคน",
     "postalCode": 47160
   },
@@ -3907,7 +3907,7 @@
     "id": 489,
     "provinceCode": 47,
     "districtCode": 4707,
-    "districtNameEn": "Nikhom Nam un",
+    "districtNameEn": "Nikhom Nam Un",
     "districtNameTh": "นิคมน้ำอูน",
     "postalCode": 47270
   },
@@ -4131,7 +4131,7 @@
     "id": 517,
     "provinceCode": 49,
     "districtCode": 4905,
-    "districtNameEn": "Khamcha-i",
+    "districtNameEn": "Khamcha-I",
     "districtNameTh": "คำชะอี",
     "postalCode": 49110
   },
@@ -4435,7 +4435,7 @@
     "id": 555,
     "provinceCode": 52,
     "districtCode": 5203,
-    "districtNameEn": "Ko kha",
+    "districtNameEn": "Ko Kha",
     "districtNameTh": "เกาะคา",
     "postalCode": 52130
   },
@@ -5715,7 +5715,7 @@
     "id": 715,
     "provinceCode": 67,
     "districtCode": 6711,
-    "districtNameEn": "Khao kho",
+    "districtNameEn": "Khao Kho",
     "districtNameTh": "เขาค้อ",
     "postalCode": 67270
   },
@@ -6115,7 +6115,7 @@
     "id": 765,
     "provinceCode": 76,
     "districtCode": 7604,
-    "districtNameEn": "Cha-am",
+    "districtNameEn": "Cha-Am",
     "districtNameTh": "ชะอำ",
     "postalCode": 76120
   },
@@ -6267,7 +6267,7 @@
     "id": 784,
     "provinceCode": 80,
     "districtCode": 8007,
-    "districtNameEn": "Cha-uat",
+    "districtNameEn": "Cha-Uat",
     "districtNameTh": "ชะอวด",
     "postalCode": 80180
   },
@@ -6467,7 +6467,7 @@
     "id": 809,
     "provinceCode": 82,
     "districtCode": 8201,
-    "districtNameEn": "Mueang Phang-nga",
+    "districtNameEn": "Mueang Phang-Nga",
     "districtNameTh": "เมืองพังงา",
     "postalCode": 82000
   },
@@ -6587,7 +6587,7 @@
     "id": 824,
     "provinceCode": 84,
     "districtCode": 8405,
-    "districtNameEn": "Ko Pha-ngan",
+    "districtNameEn": "Ko Pha-Ngan",
     "districtNameTh": "เกาะพะงัน",
     "postalCode": 84280
   },
@@ -6715,7 +6715,7 @@
     "id": 840,
     "provinceCode": 85,
     "districtCode": 8502,
-    "districtNameEn": "La-un",
+    "districtNameEn": "La-Un",
     "districtNameTh": "ละอุ่น",
     "postalCode": 85130
   },
@@ -6971,7 +6971,7 @@
     "id": 872,
     "provinceCode": 91,
     "districtCode": 9105,
-    "districtNameEn": "La-ngu",
+    "districtNameEn": "La-Ngu",
     "districtNameTh": "ละงู",
     "postalCode": 91110
   },
@@ -7347,7 +7347,7 @@
     "id": 919,
     "provinceCode": 96,
     "districtCode": 9604,
-    "districtNameEn": "Yi-ngo",
+    "districtNameEn": "Yi-Ngo",
     "districtNameTh": "ยี่งอ",
     "postalCode": 96180
   },
@@ -7355,7 +7355,7 @@
     "id": 920,
     "provinceCode": 96,
     "districtCode": 9605,
-    "districtNameEn": "Ra-ngae",
+    "districtNameEn": "Ra-Ngae",
     "districtNameTh": "ระแงะ",
     "postalCode": 96130
   },
@@ -7395,7 +7395,7 @@
     "id": 925,
     "provinceCode": 96,
     "districtCode": 9610,
-    "districtNameEn": "Su-ngai Kolok",
+    "districtNameEn": "Su-Ngai Kolok",
     "districtNameTh": "สุไหงโก-ลก",
     "postalCode": 96120
   },
@@ -7403,7 +7403,7 @@
     "id": 926,
     "provinceCode": 96,
     "districtCode": 9611,
-    "districtNameEn": "Su-ngai Padi",
+    "districtNameEn": "Su-Ngai Padi",
     "districtNameTh": "สุไหงปาดี",
     "postalCode": 96140
   },
@@ -7419,7 +7419,7 @@
     "id": 928,
     "provinceCode": 96,
     "districtCode": 9613,
-    "districtNameEn": "Cho-airong",
+    "districtNameEn": "Cho-Airong",
     "districtNameTh": "เจาะไอร้อง",
     "postalCode": 96130
   }
