@@ -8736,7 +8736,7 @@
     "subdistrictCode": 200116,
     "subdistrictNameEn": "Samet",
     "subdistrictNameTh": "เสม็ด",
-    "postalCode": 20130
+    "postalCode": 20000
   },
   {
     "id": 972,
@@ -14729,7 +14729,7 @@
     "districtCode": 3014,
     "subdistrictCode": 301417,
     "subdistrictNameEn": "Thong Chai Nuea",
-    "subdistrictNameTh": "ธงชัยหนือ",
+    "subdistrictNameTh": "ธงชัยเหนือ",
     "postalCode": 30150
   },
   {
@@ -25296,7 +25296,7 @@
     "subdistrictCode": 380201,
     "subdistrictNameEn": "Si Chomphu",
     "subdistrictNameTh": "ศรีชมภู",
-    "postalCode": 38150
+    "postalCode": 38180
   },
   {
     "id": 2812,
@@ -25305,7 +25305,7 @@
     "subdistrictCode": 380202,
     "subdistrictNameEn": "Don Ya Nang ",
     "subdistrictNameTh": "ดอนหญ้านาง",
-    "postalCode": 38150
+    "postalCode": 38180
   },
   {
     "id": 2813,
@@ -25314,7 +25314,7 @@
     "subdistrictCode": 380203,
     "subdistrictNameEn": "Phon Charoen",
     "subdistrictNameTh": "พรเจริญ",
-    "postalCode": 38150
+    "postalCode": 38180
   },
   {
     "id": 2814,
@@ -25323,7 +25323,7 @@
     "subdistrictCode": 380204,
     "subdistrictNameEn": "Nong Hua Chang",
     "subdistrictNameTh": "หนองหัวช้าง",
-    "postalCode": 38150
+    "postalCode": 38180
   },
   {
     "id": 2815,
@@ -25332,7 +25332,7 @@
     "subdistrictCode": 380205,
     "subdistrictNameEn": "Wang Chomphu",
     "subdistrictNameTh": "วังชมภู",
-    "postalCode": 38150
+    "postalCode": 38180
   },
   {
     "id": 2816,
@@ -25341,7 +25341,7 @@
     "subdistrictCode": 380206,
     "subdistrictNameEn": "Pa Faek",
     "subdistrictNameTh": "ป่าแฝก",
-    "postalCode": 38150
+    "postalCode": 38180
   },
   {
     "id": 2817,
@@ -25350,7 +25350,7 @@
     "subdistrictCode": 380207,
     "subdistrictNameEn": "Si Samran",
     "subdistrictNameTh": "ศรีสำราญ",
-    "postalCode": 38150
+    "postalCode": 38180
   },
   {
     "id": 2818,
@@ -25593,7 +25593,7 @@
     "subdistrictCode": 380701,
     "subdistrictNameEn": "Si Wilai",
     "subdistrictNameTh": "ศรีวิไล",
-    "postalCode": 38190
+    "postalCode": 38210
   },
   {
     "id": 2845,
@@ -25602,7 +25602,7 @@
     "subdistrictCode": 380702,
     "subdistrictNameEn": "Chumphu Phon",
     "subdistrictNameTh": "ชุมภูพร",
-    "postalCode": 38190
+    "postalCode": 38210
   },
   {
     "id": 2846,
@@ -25611,7 +25611,7 @@
     "subdistrictCode": 380703,
     "subdistrictNameEn": "Na Saeng",
     "subdistrictNameTh": "นาแสง",
-    "postalCode": 38190
+    "postalCode": 38210
   },
   {
     "id": 2847,
@@ -25620,7 +25620,7 @@
     "subdistrictCode": 380704,
     "subdistrictNameEn": "Na Sabaeng",
     "subdistrictNameTh": "นาสะแบง",
-    "postalCode": 38190
+    "postalCode": 38210
   },
   {
     "id": 2848,
@@ -25629,7 +25629,7 @@
     "subdistrictCode": 380705,
     "subdistrictNameEn": "Na Sing",
     "subdistrictNameTh": "นาสิงห์",
-    "postalCode": 38190
+    "postalCode": 38210
   },
   {
     "id": 2849,
@@ -27960,7 +27960,7 @@
     "subdistrictCode": 402901,
     "subdistrictNameEn": "Nai Mueang",
     "subdistrictNameTh": "ในเมือง",
-    "postalCode": 40140
+    "postalCode": 40150
   },
   {
     "id": 3108,
@@ -27969,7 +27969,7 @@
     "subdistrictCode": 402902,
     "subdistrictNameEn": "Mueang Kao Phatthana",
     "subdistrictNameTh": "เมืองเก่าพัฒนา",
-    "postalCode": 40140
+    "postalCode": 40150
   },
   {
     "id": 3109,
@@ -27978,7 +27978,7 @@
     "subdistrictCode": 402903,
     "subdistrictNameEn": "Khao Noi",
     "subdistrictNameTh": "เขาน้อย",
-    "postalCode": 40140
+    "postalCode": 40150
   },
   {
     "id": 3110,
