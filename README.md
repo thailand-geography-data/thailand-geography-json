@@ -149,7 +149,15 @@ Check out sample data from each JSON file:
   "subdistrictCode": 100101,
   "subdistrictNameEn": "Phra Borom Maha Ratchawang",
   "subdistrictNameTh": "พระบรมมหาราชวัง",
-  "postalCode": 10200
+  "postalCode": 10200,
+  "postalCodes": [
+    {
+      "postalCode": 10200,
+      "isPrimary": true,
+      "detailTh": "ทั้งตำบล",
+      "detailEn": "Whole subdistrict"
+    }
+  ]
 }
 ```
 
@@ -195,7 +203,15 @@ A subdistrict served by more than one postal code lists all of them in `postalCo
   "subdistrictCode": 100101,
   "subdistrictNameEn": "Phra Borom Maha Ratchawang",
   "subdistrictNameTh": "พระบรมมหาราชวัง",
-  "postalCode": 10200
+  "postalCode": 10200,
+  "postalCodes": [
+    {
+      "postalCode": 10200,
+      "isPrimary": true,
+      "detailTh": "ทั้งตำบล",
+      "detailEn": "Whole subdistrict"
+    }
+  ]
 }
 ```
 

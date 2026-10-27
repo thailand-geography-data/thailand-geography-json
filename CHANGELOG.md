@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- `postalCode` now documents the primary (majority) postal code of a subdistrict. This remains fully backward-compatible: records without multiple postal codes are unchanged.
+- `postalCode` now documents the primary (majority) postal code of a subdistrict. Existing consumers keep working, but the `postalCode` of 83 subdistricts that have a single code is also corrected; see Fixed.
 
 ### Fixed
 
