@@ -1,0 +1,32 @@
+name: Validate data
+
+on:
+  pull_request:
+    branches: [main]
+  merge_group:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - name: Summarize dataset data changes
+        if: github.event_name == 'pull_request'
+        continue-on-error: true
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          CANDIDATE_SHA: ${{ github.sha }}
+        run: >-
+          python3 scripts/summarize_data_changes.py --base-sha "$BASE_SHA"
+          --head-sha "$CANDIDATE_SHA" >> "$GITHUB_STEP_SUMMARY"
+      - name: Run validation tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Validate repository data
+        run: python3 scripts/validate_data.py

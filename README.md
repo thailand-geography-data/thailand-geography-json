@@ -27,6 +27,7 @@
 - [Usage](#usage)
 - [JSON Keys](#json-keys)
 - [Sample Data](#sample-data)
+- [Data validation](#data-validation)
 - [How to Contribute](#how-to-contribute)
 - [License](#license)
 - [Changelog](#changelog)
@@ -214,6 +215,17 @@ A subdistrict served by more than one postal code lists all of them in `postalCo
   ]
 }
 ```
+
+## Data validation
+
+Run the repository validation before submitting data changes:
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 scripts/validate_data.py
+```
+
+The validator uses only the Python standard library. It parses `package.json` and every JSON file under `src/`, rejects invalid UTF-8 and duplicate object keys, verifies dataset roots and required fields, validates identifier widths and referential integrity, checks exact geography/subdistrict coverage, postal-code invariants, and the multi-postal-code audit.
 
 ## How to Contribute
 
