@@ -7,15 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Fixed
-
-- Postal codes of six districts that the Thailand Post poster assigns their own code: Lue Amnat 37120, Phu Phan 47310, Wang Chao 63180, Lam Thap 81190, Vibhavadi 84370, Pa Phayom 93210.
-- Postal codes of three districts whose post office opened after the poster: Fao Rai 43230, Na Khu 46250, Wiang Chiang Rung 57350.
-- 13 subdistricts still on codes the poster no longer assigns (24180 and 30310 are retired; Khok Sung, Lam Sonthi and Chiang Khong follow their district code).
-- `districts.json` `postalCode` of nine districts that carried an exception code instead of the district's own code (Thanyaburi, Lam Luk Ka, Nong Wua So, Mueang Chiang Mai, Mae Fa Luang, Thung Saliam, Sam Roi Yot, Chulabhorn, Kanchanadit).
-- `postalCodes`: 11 subdistricts wrongly listed with a second code are single-code again, 20 subdistricts now have the majority code as primary, two gained the missing district code for unlisted Moo, and garbled `detailEn` texts were rewritten. 86 subdistricts now list more than one code.
-- English names of 2 provinces, 25 districts and 98 subdistricts (including 19 in Bueng Kan province that carried the name of another subdistrict), aligned with the Department of Provincial Administration registry of 1 September 2023; trailing spaces removed from 4 names.
-
 ## [1.2.0] - 2026-10-07
 
 ### Added
@@ -24,13 +15,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `postalCode` - postal code used in a specific part of the subdistrict
   - `isPrimary` - `true` for the primary (majority-area) code
   - `detailTh` / `detailEn` - Thai/English description of the area (whole subdistrict, Moo (village) numbers, village names, or specific house/soi ranges)
-- 97 subdistricts are served by more than one postal code and list all of their codes; the remaining 7,339 carry a single-element list. 38 subdistricts had their primary `postalCode` corrected to the code that covers most of the subdistrict (e.g. Ao Nang 81000 → 81180, Koh Tao 84280 → 84360, Nong Thale 81000 → 81180).
-- Added `docs/thailand-post-poster-2561.pdf` — the source document (Thailand Post poster, status May 2018) — and `src/multi-postal-codes.json`, an audit list of the 97 multi-postal-code subdistricts including the original poster lines (`sourceLines`) each entry was derived from.
+- 86 subdistricts are served by more than one postal code and list all of their codes; the remaining 7,350 carry a single-element list.
+- Added `docs/thailand-post-poster-2561.pdf` — the source document (Thailand Post poster, status May 2018) — and `src/multi-postal-codes.json`, an audit list of the 86 multi-postal-code subdistricts including the original poster lines (`sourceLines`) each entry was derived from.
 - Updated `README.md` to document the new key.
 
 ### Changed
 
 - `postalCode` now documents the primary (majority) postal code of a subdistrict. This remains fully backward-compatible: records without multiple postal codes are unchanged.
+
+### Fixed
+
+- Postal codes of six districts that the Thailand Post poster assigns their own code: Lue Amnat 37120, Phu Phan 47310, Wang Chao 63180, Lam Thap 81190, Vibhavadi 84370, Pa Phayom 93210.
+- Postal codes of three districts whose post office opened after the poster: Fao Rai 43230, Na Khu 46250, Wiang Chiang Rung 57350.
+- 13 subdistricts still on codes the poster no longer assigns (24180 and 30310 are retired; Khok Sung, Lam Sonthi and Chiang Khong follow their district code).
+- `districts.json` `postalCode` of nine districts that carried an exception code instead of the district's own code (Thanyaburi, Lam Luk Ka, Nong Wua So, Mueang Chiang Mai, Mae Fa Luang, Thung Saliam, Sam Roi Yot, Chulabhorn, Kanchanadit).
+- `postalCode` of 101 subdistricts corrected to the code that covers most of the subdistrict (e.g. Ao Nang 81000 → 81180, Koh Tao 84280 → 84360, Nong Thale 81000 → 81180).
+- `postalCodes`: 11 subdistricts wrongly listed with a second code are single-code again, 20 subdistricts now have the majority code as primary, two gained the missing district code for unlisted Moo, and garbled `detailEn` texts were rewritten.
+- English names of 2 provinces, 25 districts and 98 subdistricts (including 19 in Bueng Kan province that carried the name of another subdistrict), aligned with the Department of Provincial Administration registry of 1 September 2023; trailing spaces removed from 4 names.
 
 ## [1.1.3] - 2023-05-28
 
