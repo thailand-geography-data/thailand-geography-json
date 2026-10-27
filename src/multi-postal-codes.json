@@ -1,0 +1,2271 @@
+{
+  "source": {
+    "document": "https://file.thailandpost.com/upload/content/_5e856abf6c77a.pdf",
+    "title": "รหัสไปรษณีย์ทั่วประเทศ จำแนกตามท้องที่ (ไปรษณีย์ไทย — ข้อมูลสถานะเดือนพฤษภาคม 2561)",
+    "note": "รายการนี้รวมเฉพาะตำบล/แขวงที่มีมากกว่าหนึ่งรหัสไปรษณีย์ เพื่อใช้ตรวจสอบย้อนกลับกับข้อมูลใน subdistricts.json และ geography.json โดย sourceLines คือข้อความส่วน \"ยกเว้น\" ตามที่ปรากฏในโปสเตอร์",
+    "generatedAt": "2026-10-07"
+  },
+  "count": 86,
+  "subdistricts": [
+    {
+      "provinceCode": 10,
+      "provinceNameTh": "กรุงเทพมหานคร",
+      "districtCode": 1005,
+      "districtNameTh": "บางเขน",
+      "subdistrictCode": 100508,
+      "subdistrictNameTh": "ท่าแร้ง",
+      "postalCode": 10220,
+      "postalCodes": [
+        {
+          "postalCode": 10220,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 10230,
+          "isPrimary": false,
+          "detailTh": "ม.8 - 10",
+          "detailEn": "Moo 8 - 10"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น แขวงท่าแร้ง (ม.8 - 10)"
+      ]
+    },
+    {
+      "provinceCode": 10,
+      "provinceNameTh": "กรุงเทพมหานคร",
+      "districtCode": 1027,
+      "districtNameTh": "บึงกุ่ม",
+      "subdistrictCode": 102701,
+      "subdistrictNameTh": "คลองกุ่ม",
+      "postalCode": 10240,
+      "postalCodes": [
+        {
+          "postalCode": 10240,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 10230,
+          "isPrimary": false,
+          "detailTh": "เฉพาะ ม.7 - 12",
+          "detailEn": "only Moo 7 - 12"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น แขวงคลองกุ่ม (เฉพาะ ม.7 - 12) แขวงนวมินทร์ ถนนนวมินทร์ ซอยคี่ 103 - 163 ถนนนวมินทร์ ซอยคู่ 64 - 68, 74 - 100 แขวงนวลจันทร์"
+      ]
+    },
+    {
+      "provinceCode": 10,
+      "provinceNameTh": "กรุงเทพมหานคร",
+      "districtCode": 1027,
+      "districtNameTh": "บึงกุ่ม",
+      "subdistrictCode": 102704,
+      "subdistrictNameTh": "นวมินทร์",
+      "postalCode": 10240,
+      "postalCodes": [
+        {
+          "postalCode": 10240,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 10230,
+          "isPrimary": false,
+          "detailTh": "ถนนนวมินทร์ ซอยคี่ 103 - 163 ถนนนวมินทร์ ซอยคู่ 64 - 68, 74 - 100",
+          "detailEn": "Nawamin Road odd-numbered Sois 103 - 163 Nawamin Road even-numbered Sois 64 - 68, 74 - 100"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น แขวงคลองกุ่ม (เฉพาะ ม.7 - 12) แขวงนวมินทร์ ถนนนวมินทร์ ซอยคี่ 103 - 163 ถนนนวมินทร์ ซอยคู่ 64 - 68, 74 - 100 แขวงนวลจันทร์"
+      ]
+    },
+    {
+      "provinceCode": 10,
+      "provinceNameTh": "กรุงเทพมหานคร",
+      "districtCode": 1033,
+      "districtNameTh": "คลองเตย",
+      "subdistrictCode": 103303,
+      "subdistrictNameTh": "พระโขนง",
+      "postalCode": 10110,
+      "postalCodes": [
+        {
+          "postalCode": 10110,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 10260,
+          "isPrimary": false,
+          "detailTh": "เฉพาะซอย สุขุมวิท 48/1 - 48/4, 50 และถนนริมทางรถไฟเก่า เฉพาะ ม.1, ม.12 เลขคี่ 6007 - 6021, 6027 - 6689 เลขคู่ 1728 - 2422",
+          "detailEn": "only Soi Sukhumvit 48/1 - 48/4, 50 and the old railway-side road only Moo 1, Moo 12 odd house numbers 6007 - 6021, 6027 - 6689 even house numbers 1728 - 2422"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น แขวงพระโขนง เฉพาะซอย สุขุมวิท 48/1 - 48/4, 50 และถนนริมทางรถไฟเก่า เฉพาะ ม.1, ม.12 เลขคี่ 6007 - 6021, 6027 - 6689 เลขคู่ 1728 - 2422"
+      ]
+    },
+    {
+      "provinceCode": 10,
+      "provinceNameTh": "กรุงเทพมหานคร",
+      "districtCode": 1039,
+      "districtNameTh": "วัฒนา",
+      "subdistrictCode": 103903,
+      "subdistrictNameTh": "พระโขนงเหนือ",
+      "postalCode": 10110,
+      "postalCodes": [
+        {
+          "postalCode": 10110,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 10260,
+          "isPrimary": false,
+          "detailTh": "เฉพาะ สุขุมวิท ซอย 73, 75, 75/1, 77 (เฉพาะซอยคี่ 1 - 299 และซอยคู่ 2 - 252) และสุขุมวิท ซอย 77/1, 79, 81",
+          "detailEn": "only Sukhumvit Soi 73, 75, 75/1, 77 (only odd-numbered Sois 1 - 299 and even-numbered Sois 2 - 252) and Sukhumvit Soi 77/1, 79, 81"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น แขวงพระโขนงเหนือ เฉพาะ สุขุมวิท ซอย 73, 75, 75/1, 77 (เฉพาะซอยคี่ 1 - 299 และซอยคู่ 2 - 252) และสุขุมวิท ซอย 77/1, 79, 81"
+      ]
+    },
+    {
+      "provinceCode": 13,
+      "provinceNameTh": "ปทุมธานี",
+      "districtCode": 1302,
+      "districtNameTh": "คลองหลวง",
+      "subdistrictCode": 130201,
+      "subdistrictNameTh": "คลองหนึ่ง",
+      "postalCode": 12120,
+      "postalCodes": [
+        {
+          "postalCode": 12120,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 13180,
+          "isPrimary": false,
+          "detailTh": "ม.20 เฉพาะ บ้านเลขที่ 1 - 99 และมหาวิทยาลัย วไลอลงกรณ์",
+          "detailEn": "Moo 20 only house numbers 1 - 99 and Valaya Alongkorn Rajabhat University"
+        }
+      ],
+      "sourceLines": [
+        "- ต.คลองหนึ่ง (ม.20 เฉพาะ บ้านเลขที่ 1 - 99 และมหาวิทยาลัย วไลอลงกรณ์)"
+      ]
+    },
+    {
+      "provinceCode": 13,
+      "provinceNameTh": "ปทุมธานี",
+      "districtCode": 1302,
+      "districtNameTh": "คลองหลวง",
+      "subdistrictCode": 130205,
+      "subdistrictNameTh": "คลองห้า",
+      "postalCode": 12120,
+      "postalCodes": [
+        {
+          "postalCode": 12120,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 12110,
+          "isPrimary": false,
+          "detailTh": "ม.1 เฉพาะบ้านเลขที่ 38 และสถานบำบัดหญิงธัญบุรี",
+          "detailEn": "Moo 1 only house numbers 38 and Thanyaburi women rehabilitation center"
+        }
+      ],
+      "sourceLines": [
+        "- ต.คลองห้า (ม.1 เฉพาะบ้านเลขที่ 38 และสถานบำบัดหญิงธัญบุรี)"
+      ]
+    },
+    {
+      "provinceCode": 13,
+      "provinceNameTh": "ปทุมธานี",
+      "districtCode": 1302,
+      "districtNameTh": "คลองหลวง",
+      "subdistrictCode": 130206,
+      "subdistrictNameTh": "คลองหก",
+      "postalCode": 12120,
+      "postalCodes": [
+        {
+          "postalCode": 12120,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 12110,
+          "isPrimary": false,
+          "detailTh": "ม.1 เฉพาะบ้านเลขที่ 39 และสถาบันเทคโนโลยีราชมงคล",
+          "detailEn": "Moo 1 only house numbers 39 and Rajamangala Institute of Technology"
+        }
+      ],
+      "sourceLines": [
+        "- ต.คลองหก (ม.1 เฉพาะบ้านเลขที่ 39 และสถาบันเทคโนโลยีราชมงคล)"
+      ]
+    },
+    {
+      "provinceCode": 14,
+      "provinceNameTh": "พระนครศรีอยุธยา",
+      "districtCode": 1401,
+      "districtNameTh": "พระนครศรีอยุธยา",
+      "subdistrictCode": 140115,
+      "subdistrictNameTh": "บ้านใหม่",
+      "postalCode": 13000,
+      "postalCodes": [
+        {
+          "postalCode": 13000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 13250,
+          "isPrimary": false,
+          "detailTh": "เฉพาะบ้านเลขที่ 3, 6 และ 3/1",
+          "detailEn": "only house numbers 3, 6 and 3/1"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.บ้านใหม่ ม.1 (เฉพาะบ้านเลขที่ 3, 6 และ 3/1)"
+      ]
+    },
+    {
+      "provinceCode": 14,
+      "provinceNameTh": "พระนครศรีอยุธยา",
+      "districtCode": 1402,
+      "districtNameTh": "ท่าเรือ",
+      "subdistrictCode": 140203,
+      "subdistrictNameTh": "ท่าหลวง",
+      "postalCode": 18270,
+      "postalCodes": [
+        {
+          "postalCode": 18270,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 5, 7 - 10",
+          "detailEn": "Moo 1 - 5, 7 - 10 (majority area)"
+        },
+        {
+          "postalCode": 13130,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.ท่าหลวง (ม.1 - 5, 7 - 10)"
+      ]
+    },
+    {
+      "provinceCode": 14,
+      "provinceNameTh": "พระนครศรีอยุธยา",
+      "districtCode": 1409,
+      "districtNameTh": "ภาชี",
+      "subdistrictCode": 140903,
+      "subdistrictNameTh": "ระโสม",
+      "postalCode": 13140,
+      "postalCodes": [
+        {
+          "postalCode": 13140,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 18250,
+          "isPrimary": false,
+          "detailTh": "ม.5",
+          "detailEn": "Moo 5"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.ระโสม (ม.5)"
+      ]
+    },
+    {
+      "provinceCode": 14,
+      "provinceNameTh": "พระนครศรีอยุธยา",
+      "districtCode": 1411,
+      "districtNameTh": "วังน้อย",
+      "subdistrictCode": 141106,
+      "subdistrictNameTh": "พยอม",
+      "postalCode": 13170,
+      "postalCodes": [
+        {
+          "postalCode": 13170,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 13180,
+          "isPrimary": false,
+          "detailTh": "ม.5",
+          "detailEn": "Moo 5"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.พะยอม (ม.5)"
+      ]
+    },
+    {
+      "provinceCode": 14,
+      "provinceNameTh": "พระนครศรีอยุธยา",
+      "districtCode": 1414,
+      "districtNameTh": "อุทัย",
+      "subdistrictCode": 141410,
+      "subdistrictNameTh": "ธนู",
+      "postalCode": 13210,
+      "postalCodes": [
+        {
+          "postalCode": 13210,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 13000,
+          "isPrimary": false,
+          "detailTh": "ม.1, ม.2 เฉพาะ เลขที่ 1 - 29",
+          "detailEn": "Moo 1, Moo 2 only house numbers 1 - 29"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.ธนู (ม.1, ม.2 เฉพาะ เลขที่ 1 - 29), ต.ข้าวเม่า (ม.2)"
+      ]
+    },
+    {
+      "provinceCode": 14,
+      "provinceNameTh": "พระนครศรีอยุธยา",
+      "districtCode": 1414,
+      "districtNameTh": "อุทัย",
+      "subdistrictCode": 141411,
+      "subdistrictNameTh": "ข้าวเม่า",
+      "postalCode": 13210,
+      "postalCodes": [
+        {
+          "postalCode": 13210,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 13000,
+          "isPrimary": false,
+          "detailTh": "ม.2",
+          "detailEn": "Moo 2"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.ธนู (ม.1, ม.2 เฉพาะ เลขที่ 1 - 29), ต.ข้าวเม่า (ม.2)"
+      ]
+    },
+    {
+      "provinceCode": 16,
+      "provinceNameTh": "ลพบุรี",
+      "districtCode": 1601,
+      "districtNameTh": "เมืองลพบุรี",
+      "subdistrictCode": 160114,
+      "subdistrictNameTh": "ท่าแค",
+      "postalCode": 15000,
+      "postalCodes": [
+        {
+          "postalCode": 15000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 15160,
+          "isPrimary": false,
+          "detailTh": "ม.9 - 10 (ไม่รวมบ้านเลขที่ 90 หมู่ 9, ป.พัน 11 รอ., ศูนย์อำนวยการสร้างอาวุธ กองทัพบก (ศอว.))",
+          "detailEn": "Moo 9 - 10 (excluding house number 90 Moo 9, 11th Artillery Battalion (King's Guard), Army Weapon Production Center)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.เขาพระงาม, โคกกะเทียม, บางขันหมาก (ม.11), ท่าแค (ม.9 - 10 ไม่รวมบ้านเลขที่ 90 หมู่ 9, ป.พัน 11 รอ., ศูนย์อำนวยการสร้างอาวุธ กองทัพบก (ศอว.))"
+      ]
+    },
+    {
+      "provinceCode": 16,
+      "provinceNameTh": "ลพบุรี",
+      "districtCode": 1601,
+      "districtNameTh": "เมืองลพบุรี",
+      "subdistrictCode": 160117,
+      "subdistrictNameTh": "บางขันหมาก",
+      "postalCode": 15000,
+      "postalCodes": [
+        {
+          "postalCode": 15000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 15160,
+          "isPrimary": false,
+          "detailTh": "ม.11",
+          "detailEn": "Moo 11"
+        }
+      ],
+      "sourceLines": [
+        "- ต.เขาพระงาม, โคกกะเทียม, บางขันหมาก (ม.11), ท่าแค (ม.9 - 10 ไม่รวมบ้านเลขที่ 90 หมู่ 9, ป.พัน 11 รอ., ศูนย์อำนวยการสร้างอาวุธ กองทัพบก (ศอว.))"
+      ]
+    },
+    {
+      "provinceCode": 16,
+      "provinceNameTh": "ลพบุรี",
+      "districtCode": 1606,
+      "districtNameTh": "บ้านหมี่",
+      "subdistrictCode": 160608,
+      "subdistrictNameTh": "บางพึ่ง",
+      "postalCode": 15180,
+      "postalCodes": [
+        {
+          "postalCode": 15180,
+          "isPrimary": true,
+          "detailTh": "ม.4 - 9",
+          "detailEn": "Moo 4 - 9 (majority area)"
+        },
+        {
+          "postalCode": 15110,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.บ้านชี, บางขาม, บางผึ้ง (ม.4 - 9)"
+      ]
+    },
+    {
+      "provinceCode": 18,
+      "provinceNameTh": "ชัยนาท",
+      "districtCode": 1801,
+      "districtNameTh": "เมืองชัยนาท",
+      "subdistrictCode": 180106,
+      "subdistrictNameTh": "หาดท่าเสา",
+      "postalCode": 17000,
+      "postalCodes": [
+        {
+          "postalCode": 17000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 17120,
+          "isPrimary": false,
+          "detailTh": "ม.3, 6",
+          "detailEn": "Moo 3, 6"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.หาดท่าเสา (ม.3, 6)"
+      ]
+    },
+    {
+      "provinceCode": 18,
+      "provinceNameTh": "ชัยนาท",
+      "districtCode": 1802,
+      "districtNameTh": "มโนรมย์",
+      "subdistrictCode": 180202,
+      "subdistrictNameTh": "วัดโคก",
+      "postalCode": 17110,
+      "postalCodes": [
+        {
+          "postalCode": 17110,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 17170,
+          "isPrimary": false,
+          "detailTh": "ม.4 - 5",
+          "detailEn": "Moo 4 - 5"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.หางน้ำสาคร, อู่ตะเภา ไร่พัฒนา, วัดโคก (ม.4 - 5)"
+      ]
+    },
+    {
+      "provinceCode": 19,
+      "provinceNameTh": "สระบุรี",
+      "districtCode": 1903,
+      "districtNameTh": "หนองแค",
+      "subdistrictCode": 190306,
+      "subdistrictNameTh": "บัวลอย",
+      "postalCode": 18230,
+      "postalCodes": [
+        {
+          "postalCode": 18230,
+          "isPrimary": true,
+          "detailTh": "ทั้งตำบล (ยกเว้นส่วนที่ระบุด้านล่าง)",
+          "detailEn": "Whole subdistrict except the areas listed below"
+        },
+        {
+          "postalCode": 18140,
+          "isPrimary": false,
+          "detailTh": "นิคมอุตสาหกรรม เครือซิเมนต์ไทยจำกัด",
+          "detailEn": "Siam Cement Group industrial estate"
+        }
+      ],
+      "sourceLines": [
+        "- ต.โคกแย้, ห้วยขมิ้น, หนองนาก, ห้วยทราย, หนองจิก, บัวลอย (ไม่รวมนิคมอุตสาหกรรม เครือซิเมนต์ไทยจำกัด)"
+      ]
+    },
+    {
+      "provinceCode": 19,
+      "provinceNameTh": "สระบุรี",
+      "districtCode": 1906,
+      "districtNameTh": "บ้านหมอ",
+      "subdistrictCode": 190602,
+      "subdistrictNameTh": "บางโขมด",
+      "postalCode": 18130,
+      "postalCodes": [
+        {
+          "postalCode": 18130,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 18270,
+          "isPrimary": false,
+          "detailTh": "เฉพาะเลขที่ 49 ม.11 บริษัท เหล็กสยาม จำกัด",
+          "detailEn": "only house numbers 49 Moo 11 Siam Steel Co., Ltd."
+        }
+      ],
+      "sourceLines": [
+        "- ต.บ้านครัว, บางโขมด (เฉพาะเลขที่ 49 ม.11 บริษัท เหล็กสยาม จำกัด)"
+      ]
+    },
+    {
+      "provinceCode": 19,
+      "provinceNameTh": "สระบุรี",
+      "districtCode": 1906,
+      "districtNameTh": "บ้านหมอ",
+      "subdistrictCode": 190605,
+      "subdistrictNameTh": "หรเทพ",
+      "postalCode": 18130,
+      "postalCodes": [
+        {
+          "postalCode": 18130,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 18210,
+          "isPrimary": false,
+          "detailTh": "ม.8",
+          "detailEn": "Moo 8"
+        }
+      ],
+      "sourceLines": [
+        "- ต.หรเทพ (ม.8)"
+      ]
+    },
+    {
+      "provinceCode": 20,
+      "provinceNameTh": "ชลบุรี",
+      "districtCode": 2001,
+      "districtNameTh": "เมืองชลบุรี",
+      "subdistrictCode": 200115,
+      "subdistrictNameTh": "ห้วยกะปิ",
+      "postalCode": 20000,
+      "postalCodes": [
+        {
+          "postalCode": 20000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 20130,
+          "isPrimary": false,
+          "detailTh": "ม.4 - 5",
+          "detailEn": "Moo 4 - 5"
+        }
+      ],
+      "sourceLines": [
+        "- ต.บ้านปึก, แสนสุข, เหมือง, เสม็ด (ม.7 - 8), ห้วยกะปิ (ม.4 - 5)"
+      ]
+    },
+    {
+      "provinceCode": 20,
+      "provinceNameTh": "ชลบุรี",
+      "districtCode": 2001,
+      "districtNameTh": "เมืองชลบุรี",
+      "subdistrictCode": 200116,
+      "subdistrictNameTh": "เสม็ด",
+      "postalCode": 20000,
+      "postalCodes": [
+        {
+          "postalCode": 20000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 20130,
+          "isPrimary": false,
+          "detailTh": "ม.7 - 8",
+          "detailEn": "Moo 7 - 8"
+        }
+      ],
+      "sourceLines": [
+        "- ต.บ้านปึก, แสนสุข, เหมือง, เสม็ด (ม.7 - 8), ห้วยกะปิ (ม.4 - 5)"
+      ]
+    },
+    {
+      "provinceCode": 20,
+      "provinceNameTh": "ชลบุรี",
+      "districtCode": 2006,
+      "districtNameTh": "พนัสนิคม",
+      "subdistrictCode": 200605,
+      "subdistrictNameTh": "นาเริก",
+      "postalCode": 20140,
+      "postalCodes": [
+        {
+          "postalCode": 20140,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 20240,
+          "isPrimary": false,
+          "detailTh": "ม.4 - 5, 8 - 11, 14 - 15",
+          "detailEn": "Moo 4 - 5, 8 - 11, 14 - 15"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.นาเริก (ม.4 - 5, 8 - 11, 14 - 15), ต.นาวังหิน (ม.4 - 6, 10 - 11)"
+      ]
+    },
+    {
+      "provinceCode": 20,
+      "provinceNameTh": "ชลบุรี",
+      "districtCode": 2006,
+      "districtNameTh": "พนัสนิคม",
+      "subdistrictCode": 200617,
+      "subdistrictNameTh": "นาวังหิน",
+      "postalCode": 20140,
+      "postalCodes": [
+        {
+          "postalCode": 20140,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 20240,
+          "isPrimary": false,
+          "detailTh": "ม.4 - 6, 10 - 11",
+          "detailEn": "Moo 4 - 6, 10 - 11"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.นาเริก (ม.4 - 5, 8 - 11, 14 - 15), ต.นาวังหิน (ม.4 - 6, 10 - 11)"
+      ]
+    },
+    {
+      "provinceCode": 21,
+      "provinceNameTh": "ระยอง",
+      "districtCode": 2101,
+      "districtNameTh": "เมืองระยอง",
+      "subdistrictCode": 210109,
+      "subdistrictNameTh": "เนินพระ",
+      "postalCode": 21150,
+      "postalCodes": [
+        {
+          "postalCode": 21150,
+          "isPrimary": true,
+          "detailTh": "ม.4 - 7",
+          "detailEn": "Moo 4 - 7 (majority area)"
+        },
+        {
+          "postalCode": 21000,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.มาบตาพุด, ห้วยโป่ง, เนินพระ (ม.4 - 7)"
+      ]
+    },
+    {
+      "provinceCode": 23,
+      "provinceNameTh": "ตราด",
+      "districtCode": 2306,
+      "districtNameTh": "เกาะกูด",
+      "subdistrictCode": 230601,
+      "subdistrictNameTh": "เกาะหมาก",
+      "postalCode": 23120,
+      "postalCodes": [
+        {
+          "postalCode": 23120,
+          "isPrimary": true,
+          "detailTh": "ม.1, 2",
+          "detailEn": "Moo 1, 2 (majority area)"
+        },
+        {
+          "postalCode": 23000,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.เกาะหมาก (ม.1, 2)"
+      ]
+    },
+    {
+      "provinceCode": 26,
+      "provinceNameTh": "นครนายก",
+      "districtCode": 2601,
+      "districtNameTh": "เมืองนครนายก",
+      "subdistrictCode": 260113,
+      "subdistrictNameTh": "พรหมณี",
+      "postalCode": 26000,
+      "postalCodes": [
+        {
+          "postalCode": 26000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 26001,
+          "isPrimary": false,
+          "detailTh": "ม.1, 13",
+          "detailEn": "Moo 1, 13"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.พรหมณี (ม.1, 13) ภายใน รร.นายร้อย จปร. และ รร.ปิยชาติ"
+      ]
+    },
+    {
+      "provinceCode": 27,
+      "provinceNameTh": "สระแก้ว",
+      "districtCode": 2709,
+      "districtNameTh": "วังสมบูรณ์",
+      "subdistrictCode": 270902,
+      "subdistrictNameTh": "วังใหม่",
+      "postalCode": 27250,
+      "postalCodes": [
+        {
+          "postalCode": 27250,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 27210,
+          "isPrimary": false,
+          "detailTh": "ม.1 เฉพาะ บ้านเลขที่ 73/1, 97, 198/1 - 10, 483/1, 616/1, 563, 770, 700/1 - 12, 952, 952/1, 1433 ม.2 - 4 ม.10 เฉพาะบ้านเลขที่ 56, 61, 69/1, 74, 75, 91 - 93, 104, 105, 113 - 115, 117/1, 126, 134 - 146, 159, 174, 184, 185, 190, 195",
+          "detailEn": "Moo 1 only house numbers 73/1, 97, 198/1 - 10, 483/1, 616/1, 563, 770, 700/1 - 12, 952, 952/1, 1433 Moo 2 - 4 Moo 10 only house numbers 56, 61, 69/1, 74, 75, 91 - 93, 104, 105, 113 - 115, 117/1, 126, 134 - 146, 159, 174, 184, 185, 190, 195"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.วังใหม่ (ม.1 เฉพาะ บ้านเลขที่ 73/1, 97, 198/1 - 10, 483/1, 616/1, 563, 770, 700/1 - 12, 952, 952/1, 1433) ม.2 - 4, (ม.10 เฉพาะบ้านเลขที่ 56, 61, 69/1, 74, 75, 91 - 93, 104, 105, 113 - 115, 117/1, 126, 134 - 146, 159, 174, 184, 185, 190, 195)"
+      ]
+    },
+    {
+      "provinceCode": 40,
+      "provinceNameTh": "ขอนแก่น",
+      "districtCode": 4007,
+      "districtNameTh": "น้ำพอง",
+      "subdistrictCode": 400701,
+      "subdistrictNameTh": "น้ำพอง",
+      "postalCode": 40310,
+      "postalCodes": [
+        {
+          "postalCode": 40310,
+          "isPrimary": true,
+          "detailTh": "ม.2 - 8, 13, 15, 16",
+          "detailEn": "Moo 2 - 8, 13, 15, 16 (majority area)"
+        },
+        {
+          "postalCode": 40140,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.น้ำพอง (ม.2 - 8, 13, 15, 16) กุดน้ำใส, ม่วงหวาน, สะอาด"
+      ]
+    },
+    {
+      "provinceCode": 50,
+      "provinceNameTh": "เชียงใหม่",
+      "districtCode": 5001,
+      "districtNameTh": "เมืองเชียงใหม่",
+      "subdistrictCode": 500116,
+      "subdistrictNameTh": "สันผีเสื้อ",
+      "postalCode": 50300,
+      "postalCodes": [
+        {
+          "postalCode": 50300,
+          "isPrimary": true,
+          "detailTh": "ทั้งตำบล (ยกเว้นส่วนที่ระบุด้านล่าง)",
+          "detailEn": "Whole subdistrict except the areas listed below"
+        },
+        {
+          "postalCode": 50290,
+          "isPrimary": false,
+          "detailTh": "ม.1 เฉพาะหมู่บ้าน ชัยพฤกษ์",
+          "detailEn": "Moo 1 only Chaiyaphruek housing estate"
+        }
+      ],
+      "sourceLines": [
+        "- ต.ช้างเผือก, ช้างม่อย, ป่าตัน สันผีเสื้อ",
+        "- ต.สันสีเสื้อ (ม.1 เฉพาะหมู่บ้าน ชัยพฤกษ์)"
+      ]
+    },
+    {
+      "provinceCode": 50,
+      "provinceNameTh": "เชียงใหม่",
+      "districtCode": 5002,
+      "districtNameTh": "จอมทอง",
+      "subdistrictCode": 500209,
+      "subdistrictNameTh": "แม่สอย",
+      "postalCode": 50240,
+      "postalCodes": [
+        {
+          "postalCode": 50240,
+          "isPrimary": true,
+          "detailTh": "ทั้งตำบล (ยกเว้นส่วนที่ระบุด้านล่าง)",
+          "detailEn": "Whole subdistrict except the areas listed below"
+        },
+        {
+          "postalCode": 50160,
+          "isPrimary": false,
+          "detailTh": "ม.14",
+          "detailEn": "Moo 14"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.บ้านแปะ, แม่สอย (ไม่รวม ม.14)"
+      ]
+    },
+    {
+      "provinceCode": 50,
+      "provinceNameTh": "เชียงใหม่",
+      "districtCode": 5006,
+      "districtNameTh": "แม่แตง",
+      "subdistrictCode": 500606,
+      "subdistrictNameTh": "สบเปิง",
+      "postalCode": 50330,
+      "postalCodes": [
+        {
+          "postalCode": 50330,
+          "isPrimary": true,
+          "detailTh": "ม.2 - 9, 12 - 13",
+          "detailEn": "Moo 2 - 9, 12 - 13 (majority area)"
+        },
+        {
+          "postalCode": 50150,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.สันป่ายาง, สบเปิง (ม.2 - 9, 12 - 13)"
+      ]
+    },
+    {
+      "provinceCode": 50,
+      "provinceNameTh": "เชียงใหม่",
+      "districtCode": 5014,
+      "districtNameTh": "สันทราย",
+      "subdistrictCode": 501407,
+      "subdistrictNameTh": "หนองจ๊อม",
+      "postalCode": 50210,
+      "postalCodes": [
+        {
+          "postalCode": 50210,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 50290,
+          "isPrimary": false,
+          "detailTh": "ม.4 เฉพาะ หมู่บ้านบุศรินทร์, หมู่บ้านสีวลี 1, 2 หมู่บ้านนันทนา 1, หมู่บ้านพฤกษ์วารี หมู่บ้านชลดา, หมู่บ้านพฤกษ์ลดา 1, 2",
+          "detailEn": "Moo 4 only these housing estates: Butsarin, Siwali 1 and 2, Nanthana 1, Phruek Wari, Chonlada, Phruek Lada 1 and 2"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.แม่แฝก, แม่แฝกใหม่, หนองหาร, หนองจ๊อม (ม.4 เฉพาะ หมู่บ้านบุศรินทร์, หมู่บ้านสีวลี 1, 2 หมู่บ้านนันทนา 1, หมู่บ้านพฤกษ์วารี หมู่บ้านชลดา, หมู่บ้านพฤกษ์ลดา 1, 2)"
+      ]
+    },
+    {
+      "provinceCode": 52,
+      "provinceNameTh": "ลำปาง",
+      "districtCode": 5201,
+      "districtNameTh": "เมืองลำปาง",
+      "subdistrictCode": 520105,
+      "subdistrictNameTh": "พระบาท",
+      "postalCode": 52000,
+      "postalCodes": [
+        {
+          "postalCode": 52000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 52220,
+          "isPrimary": false,
+          "detailTh": "ม.4",
+          "detailEn": "Moo 4"
+        }
+      ],
+      "sourceLines": [
+        "- ต.พระบาท (ม.4)"
+      ]
+    },
+    {
+      "provinceCode": 52,
+      "provinceNameTh": "ลำปาง",
+      "districtCode": 5202,
+      "districtNameTh": "แม่เมาะ",
+      "subdistrictCode": 520201,
+      "subdistrictNameTh": "บ้านดง",
+      "postalCode": 52220,
+      "postalCodes": [
+        {
+          "postalCode": 52220,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 52000,
+          "isPrimary": false,
+          "detailTh": "ม.4 - 6",
+          "detailEn": "Moo 4 - 6"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.บ้านดง (ม.4 - 6)"
+      ]
+    },
+    {
+      "provinceCode": 52,
+      "provinceNameTh": "ลำปาง",
+      "districtCode": 5209,
+      "districtNameTh": "แม่พริก",
+      "subdistrictCode": 520904,
+      "subdistrictNameTh": "พระบาทวังตวง",
+      "postalCode": 52180,
+      "postalCodes": [
+        {
+          "postalCode": 52180,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 52230,
+          "isPrimary": false,
+          "detailTh": "ม.1 - 2, 6",
+          "detailEn": "Moo 1 - 2, 6"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.พระบาทวังตวง (ม.1 - 2, 6)"
+      ]
+    },
+    {
+      "provinceCode": 52,
+      "provinceNameTh": "ลำปาง",
+      "districtCode": 5210,
+      "districtNameTh": "แม่ทะ",
+      "subdistrictCode": 521001,
+      "subdistrictNameTh": "แม่ทะ",
+      "postalCode": 52150,
+      "postalCodes": [
+        {
+          "postalCode": 52150,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 52220,
+          "isPrimary": false,
+          "detailTh": "ม.6",
+          "detailEn": "Moo 6"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.แม่ทะ (ม.6)"
+      ]
+    },
+    {
+      "provinceCode": 53,
+      "provinceNameTh": "อุตรดิตถ์",
+      "districtCode": 5301,
+      "districtNameTh": "เมืองอุตรดิตถ์",
+      "subdistrictCode": 530103,
+      "subdistrictNameTh": "บ้านเกาะ",
+      "postalCode": 53000,
+      "postalCodes": [
+        {
+          "postalCode": 53000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 53170,
+          "isPrimary": false,
+          "detailTh": "ม.7 - 9",
+          "detailEn": "Moo 7 - 9"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.วังกะพี้, บ้านเกาะ (ม.7 - 9)"
+      ]
+    },
+    {
+      "provinceCode": 53,
+      "provinceNameTh": "อุตรดิตถ์",
+      "districtCode": 5303,
+      "districtNameTh": "ท่าปลา",
+      "subdistrictCode": 530302,
+      "subdistrictNameTh": "หาดล้า",
+      "postalCode": 53150,
+      "postalCodes": [
+        {
+          "postalCode": 53150,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 53190,
+          "isPrimary": false,
+          "detailTh": "ม.1 - 3, 9",
+          "detailEn": "Moo 1 - 3, 9"
+        }
+      ],
+      "sourceLines": [
+        "- ต.ผาเลือด, ร่วมจิต, หาดล้า (ม.1 - 3, 9)"
+      ]
+    },
+    {
+      "provinceCode": 57,
+      "provinceNameTh": "เชียงราย",
+      "districtCode": 5704,
+      "districtNameTh": "เทิง",
+      "subdistrictCode": 570402,
+      "subdistrictNameTh": "งิ้ว",
+      "postalCode": 57160,
+      "postalCodes": [
+        {
+          "postalCode": 57160,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 57230,
+          "isPrimary": false,
+          "detailTh": "ม.5, 7, 12, 13, 17, 19, 23, 25",
+          "detailEn": "Moo 5, 7, 12, 13, 17, 19, 23, 25"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.เชียงเคี่ยน, ปล้อง, แม่ลอย, ศรีดอนไชย, หนองแรด, งิ้ว (ม.5, 7, 12, 13, 17, 19, 23, 25)"
+      ]
+    },
+    {
+      "provinceCode": 64,
+      "provinceNameTh": "สุโขทัย",
+      "districtCode": 6401,
+      "districtNameTh": "เมืองสุโขทัย",
+      "subdistrictCode": 640106,
+      "subdistrictNameTh": "บ้านกล้วย",
+      "postalCode": 64000,
+      "postalCodes": [
+        {
+          "postalCode": 64000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 64210,
+          "isPrimary": false,
+          "detailTh": "ม.8",
+          "detailEn": "Moo 8"
+        }
+      ],
+      "sourceLines": [
+        "- ต.เมืองเก่า, วังทองแดง, บ้านกล้วย (ม.8)"
+      ]
+    },
+    {
+      "provinceCode": 66,
+      "provinceNameTh": "พิจิตร",
+      "districtCode": 6601,
+      "districtNameTh": "เมืองพิจิตร",
+      "subdistrictCode": 660111,
+      "subdistrictNameTh": "ฆะมัง",
+      "postalCode": 66000,
+      "postalCodes": [
+        {
+          "postalCode": 66000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 66170,
+          "isPrimary": false,
+          "detailTh": "ม.3 - 4, 7 - 9",
+          "detailEn": "Moo 3 - 4, 7 - 9"
+        }
+      ],
+      "sourceLines": [
+        "K ยกเว้น ต.ฆะมัง (ม.3 - 4, 7 - 9), ดงป่าคำ, หัวดง, ดงกลาง"
+      ]
+    },
+    {
+      "provinceCode": 71,
+      "provinceNameTh": "กาญจนบุรี",
+      "districtCode": 7106,
+      "districtNameTh": "ท่าม่วง",
+      "subdistrictCode": 710603,
+      "subdistrictNameTh": "วังศาลา",
+      "postalCode": 71110,
+      "postalCodes": [
+        {
+          "postalCode": 71110,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 71130,
+          "isPrimary": false,
+          "detailTh": "ม.3, 6",
+          "detailEn": "Moo 3, 6"
+        }
+      ],
+      "sourceLines": [
+        "- ต.ท่าตะคร้อ, วังศาลา (ม.3, 6)"
+      ]
+    },
+    {
+      "provinceCode": 71,
+      "provinceNameTh": "กาญจนบุรี",
+      "districtCode": 7106,
+      "districtNameTh": "ท่าม่วง",
+      "subdistrictCode": 710604,
+      "subdistrictNameTh": "ท่าล้อ",
+      "postalCode": 71110,
+      "postalCodes": [
+        {
+          "postalCode": 71110,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 71000,
+          "isPrimary": false,
+          "detailTh": "ม.1 - 2",
+          "detailEn": "Moo 1 - 2"
+        }
+      ],
+      "sourceLines": [
+        "- ต.ท่าล้อ (ม.1 - 2)"
+      ]
+    },
+    {
+      "provinceCode": 72,
+      "provinceNameTh": "สุพรรณบุรี",
+      "districtCode": 7206,
+      "districtNameTh": "ดอนเจดีย์",
+      "subdistrictCode": 720605,
+      "subdistrictNameTh": "ทะเลบก",
+      "postalCode": 72250,
+      "postalCodes": [
+        {
+          "postalCode": 72250,
+          "isPrimary": true,
+          "detailTh": "ม.1, 4 - 12",
+          "detailEn": "Moo 1, 4 - 12 (majority area)"
+        },
+        {
+          "postalCode": 72170,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.สระกระโจม, ทะเลบก (ม.1, 4 - 12)"
+      ]
+    },
+    {
+      "provinceCode": 72,
+      "provinceNameTh": "สุพรรณบุรี",
+      "districtCode": 7207,
+      "districtNameTh": "สองพี่น้อง",
+      "subdistrictCode": 720711,
+      "subdistrictNameTh": "ศรีสำราญ",
+      "postalCode": 72110,
+      "postalCodes": [
+        {
+          "postalCode": 72110,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 72190,
+          "isPrimary": false,
+          "detailTh": "ม.6 - 8, 11 - 13",
+          "detailEn": "Moo 6 - 8, 11 - 13"
+        }
+      ],
+      "sourceLines": [
+        "- ต.บ่อสุพรรณ, ทุ่งคอก (ม.4 - 11, 14, 16), ศรีสำราญ (ม.6 - 8, 11 - 13) หนองบ่อ (ม.1 -5, 7 - 8)"
+      ]
+    },
+    {
+      "provinceCode": 72,
+      "provinceNameTh": "สุพรรณบุรี",
+      "districtCode": 7207,
+      "districtNameTh": "สองพี่น้อง",
+      "subdistrictCode": 720712,
+      "subdistrictNameTh": "ทุ่งคอก",
+      "postalCode": 72190,
+      "postalCodes": [
+        {
+          "postalCode": 72190,
+          "isPrimary": true,
+          "detailTh": "ม.4 - 11, 14, 16",
+          "detailEn": "Moo 4 - 11, 14, 16 (majority area)"
+        },
+        {
+          "postalCode": 72110,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.บ่อสุพรรณ, ทุ่งคอก (ม.4 - 11, 14, 16), ศรีสำราญ (ม.6 - 8, 11 - 13) หนองบ่อ (ม.1 -5, 7 - 8)"
+      ]
+    },
+    {
+      "provinceCode": 72,
+      "provinceNameTh": "สุพรรณบุรี",
+      "districtCode": 7207,
+      "districtNameTh": "สองพี่น้อง",
+      "subdistrictCode": 720713,
+      "subdistrictNameTh": "หนองบ่อ",
+      "postalCode": 72190,
+      "postalCodes": [
+        {
+          "postalCode": 72190,
+          "isPrimary": true,
+          "detailTh": "ม.1 -5, 7 - 8",
+          "detailEn": "Moo 1 -5, 7 - 8 (majority area)"
+        },
+        {
+          "postalCode": 71170,
+          "isPrimary": false,
+          "detailTh": "ม.6",
+          "detailEn": "Moo 6"
+        },
+        {
+          "postalCode": 72110,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.บ่อสุพรรณ, ทุ่งคอก (ม.4 - 11, 14, 16), ศรีสำราญ (ม.6 - 8, 11 - 13) หนองบ่อ (ม.1 -5, 7 - 8)",
+        "- ต.หนองบ่อ (ม.6)"
+      ]
+    },
+    {
+      "provinceCode": 72,
+      "provinceNameTh": "สุพรรณบุรี",
+      "districtCode": 7209,
+      "districtNameTh": "อู่ทอง",
+      "subdistrictCode": 720903,
+      "subdistrictNameTh": "จรเข้สามพัน",
+      "postalCode": 71170,
+      "postalCodes": [
+        {
+          "postalCode": 71170,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 3, 8 - 9, 11 - 13",
+          "detailEn": "Moo 1 - 3, 8 - 9, 11 - 13 (majority area)"
+        },
+        {
+          "postalCode": 72160,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.จรเข้สามพัน (ม.1 - 3, 8 - 9, 11 - 13)"
+      ]
+    },
+    {
+      "provinceCode": 73,
+      "provinceNameTh": "นครปฐม",
+      "districtCode": 7302,
+      "districtNameTh": "กำแพงแสน",
+      "subdistrictCode": 730206,
+      "subdistrictNameTh": "สระสี่มุม",
+      "postalCode": 73140,
+      "postalCodes": [
+        {
+          "postalCode": 73140,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 73180,
+          "isPrimary": false,
+          "detailTh": "ม.1, 3 - 5, ม.11, 14, 16, 22, 23",
+          "detailEn": "Moo 1, 3 - 5, Moo 11, 14, 16, 22, 23"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.กระตีบ, ห้วยม่วง, สระพัฒนา, สระสี่มุม (ม.1, 3 - 5, ม.11, 14, 16, 22, 23)"
+      ]
+    },
+    {
+      "provinceCode": 74,
+      "provinceNameTh": "สมุทรสาคร",
+      "districtCode": 7403,
+      "districtNameTh": "บ้านแพ้ว",
+      "subdistrictCode": 740304,
+      "subdistrictNameTh": "โรงเข้",
+      "postalCode": 74120,
+      "postalCodes": [
+        {
+          "postalCode": 74120,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 70210,
+          "isPrimary": false,
+          "detailTh": "ม.4 เฉพาะบ้าน เลขที่ 1 - 36/1 -7",
+          "detailEn": "Moo 4 only house numbers 1 - 36/1 -7"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.โรงเข้ (ม.4 เฉพาะบ้าน เลขที่ 1 - 36/1 -7 ), หนองสองห้อง (ม.1 เฉพาะบ้านเลขที่ 1 - 26)"
+      ]
+    },
+    {
+      "provinceCode": 74,
+      "provinceNameTh": "สมุทรสาคร",
+      "districtCode": 7403,
+      "districtNameTh": "บ้านแพ้ว",
+      "subdistrictCode": 740305,
+      "subdistrictNameTh": "หนองสองห้อง",
+      "postalCode": 74120,
+      "postalCodes": [
+        {
+          "postalCode": 74120,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 70210,
+          "isPrimary": false,
+          "detailTh": "ม.1 เฉพาะบ้านเลขที่ 1 - 26",
+          "detailEn": "Moo 1 only house numbers 1 - 26"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.โรงเข้ (ม.4 เฉพาะบ้าน เลขที่ 1 - 36/1 -7 ), หนองสองห้อง (ม.1 เฉพาะบ้านเลขที่ 1 - 26)"
+      ]
+    },
+    {
+      "provinceCode": 76,
+      "provinceNameTh": "เพชรบุรี",
+      "districtCode": 7601,
+      "districtNameTh": "เมืองเพชรบุรี",
+      "subdistrictCode": 760123,
+      "subdistrictNameTh": "หนองขนาน",
+      "postalCode": 76000,
+      "postalCodes": [
+        {
+          "postalCode": 76000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 76100,
+          "isPrimary": false,
+          "detailTh": "ม.10 - 12",
+          "detailEn": "Moo 10 - 12"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.หาดเจ้าสำราญ, หนองขนาน (ม.10 - 12)"
+      ]
+    },
+    {
+      "provinceCode": 77,
+      "provinceNameTh": "ประจวบคีรีขันธ์",
+      "districtCode": 7701,
+      "districtNameTh": "เมืองประจวบคีรีขันธ์",
+      "subdistrictCode": 770105,
+      "subdistrictNameTh": "อ่าวน้อย",
+      "postalCode": 77210,
+      "postalCodes": [
+        {
+          "postalCode": 77210,
+          "isPrimary": true,
+          "detailTh": "ม.1, 4 - 16",
+          "detailEn": "Moo 1, 4 - 16 (majority area)"
+        },
+        {
+          "postalCode": 77000,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.บ่อนอก, อ่าวน้อย (ม.1, 4 - 16)"
+      ]
+    },
+    {
+      "provinceCode": 77,
+      "provinceNameTh": "ประจวบคีรีขันธ์",
+      "districtCode": 7706,
+      "districtNameTh": "ปราณบุรี",
+      "subdistrictCode": 770602,
+      "subdistrictNameTh": "เขาน้อย",
+      "postalCode": 77120,
+      "postalCodes": [
+        {
+          "postalCode": 77120,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 77160,
+          "isPrimary": false,
+          "detailTh": "ม.3",
+          "detailEn": "Moo 3"
+        }
+      ],
+      "sourceLines": [
+        "- ต.เขาน้อย (ม.3), ค่ายธนะรัชต์, กรมทหารพรานที่ 11, รพ.ค่ายธนะรัชต์"
+      ]
+    },
+    {
+      "provinceCode": 80,
+      "provinceNameTh": "นครศรีธรรมราช",
+      "districtCode": 8001,
+      "districtNameTh": "เมืองนครศรีธรรมราช",
+      "subdistrictCode": 800122,
+      "subdistrictNameTh": "ท่าเรือ",
+      "postalCode": 80290,
+      "postalCodes": [
+        {
+          "postalCode": 80290,
+          "isPrimary": true,
+          "detailTh": "ม.2 - 6, 8, 14 - 17, 19",
+          "detailEn": "Moo 2 - 6, 8, 14 - 17, 19 (majority area)"
+        },
+        {
+          "postalCode": 80000,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.ท่าเรือ (ม.2 - 6, 8, 14 - 17, 19)"
+      ]
+    },
+    {
+      "provinceCode": 80,
+      "provinceNameTh": "นครศรีธรรมราช",
+      "districtCode": 8004,
+      "districtNameTh": "ฉวาง",
+      "subdistrictCode": 800401,
+      "subdistrictNameTh": "ฉวาง",
+      "postalCode": 80150,
+      "postalCodes": [
+        {
+          "postalCode": 80150,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 80250,
+          "isPrimary": false,
+          "detailTh": "ม.8",
+          "detailEn": "Moo 8"
+        }
+      ],
+      "sourceLines": [
+        "- ต.ละอาย, จันดี, ฉวาง (ม.8)"
+      ]
+    },
+    {
+      "provinceCode": 80,
+      "provinceNameTh": "นครศรีธรรมราช",
+      "districtCode": 8004,
+      "districtNameTh": "ฉวาง",
+      "subdistrictCode": 800404,
+      "subdistrictNameTh": "นาแว",
+      "postalCode": 80260,
+      "postalCodes": [
+        {
+          "postalCode": 80260,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 6, 8 - 12",
+          "detailEn": "Moo 1 - 6, 8 - 12 (majority area)"
+        },
+        {
+          "postalCode": 80150,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.กะเปียด, ห้วยปริก, นาเขลียง, นากะชะ (ม.3 - 6), นาแว (ม.1 - 6, 8 - 12), ไม้เรียง (ม.1 - 3, 5, 8 - 10)"
+      ]
+    },
+    {
+      "provinceCode": 80,
+      "provinceNameTh": "นครศรีธรรมราช",
+      "districtCode": 8004,
+      "districtNameTh": "ฉวาง",
+      "subdistrictCode": 800405,
+      "subdistrictNameTh": "ไม้เรียง",
+      "postalCode": 80260,
+      "postalCodes": [
+        {
+          "postalCode": 80260,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 3, 5, 8 - 10",
+          "detailEn": "Moo 1 - 3, 5, 8 - 10 (majority area)"
+        },
+        {
+          "postalCode": 80150,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.กะเปียด, ห้วยปริก, นาเขลียง, นากะชะ (ม.3 - 6), นาแว (ม.1 - 6, 8 - 12), ไม้เรียง (ม.1 - 3, 5, 8 - 10)"
+      ]
+    },
+    {
+      "provinceCode": 80,
+      "provinceNameTh": "นครศรีธรรมราช",
+      "districtCode": 8004,
+      "districtNameTh": "ฉวาง",
+      "subdistrictCode": 800407,
+      "subdistrictNameTh": "นากะชะ",
+      "postalCode": 80260,
+      "postalCodes": [
+        {
+          "postalCode": 80260,
+          "isPrimary": true,
+          "detailTh": "ม.3 - 6",
+          "detailEn": "Moo 3 - 6 (majority area)"
+        },
+        {
+          "postalCode": 80150,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.กะเปียด, ห้วยปริก, นาเขลียง, นากะชะ (ม.3 - 6), นาแว (ม.1 - 6, 8 - 12), ไม้เรียง (ม.1 - 3, 5, 8 - 10)"
+      ]
+    },
+    {
+      "provinceCode": 80,
+      "provinceNameTh": "นครศรีธรรมราช",
+      "districtCode": 8009,
+      "districtNameTh": "ทุ่งสง",
+      "subdistrictCode": 800907,
+      "subdistrictNameTh": "เขาโร",
+      "postalCode": 80110,
+      "postalCodes": [
+        {
+          "postalCode": 80110,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 80310,
+          "isPrimary": false,
+          "detailTh": "ม.5",
+          "detailEn": "Moo 5"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.กะปาง, เขาโร (ม.5) ที่วัง (ม.3 - 4, 11)"
+      ]
+    },
+    {
+      "provinceCode": 80,
+      "provinceNameTh": "นครศรีธรรมราช",
+      "districtCode": 8009,
+      "districtNameTh": "ทุ่งสง",
+      "subdistrictCode": 800909,
+      "subdistrictNameTh": "ที่วัง",
+      "postalCode": 80110,
+      "postalCodes": [
+        {
+          "postalCode": 80110,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 80310,
+          "isPrimary": false,
+          "detailTh": "ม.3 - 4, 11",
+          "detailEn": "Moo 3 - 4, 11"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.กะปาง, เขาโร (ม.5) ที่วัง (ม.3 - 4, 11)"
+      ]
+    },
+    {
+      "provinceCode": 80,
+      "provinceNameTh": "นครศรีธรรมราช",
+      "districtCode": 8010,
+      "districtNameTh": "นาบอน",
+      "subdistrictCode": 801003,
+      "subdistrictNameTh": "แก้วแสน",
+      "postalCode": 80220,
+      "postalCodes": [
+        {
+          "postalCode": 80220,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 80250,
+          "isPrimary": false,
+          "detailTh": "ม.3 - 4",
+          "detailEn": "Moo 3 - 4"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.แก้วแสน (ม.3 - 4)"
+      ]
+    },
+    {
+      "provinceCode": 80,
+      "provinceNameTh": "นครศรีธรรมราช",
+      "districtCode": 8022,
+      "districtNameTh": "ช้างกลาง",
+      "subdistrictCode": 802201,
+      "subdistrictNameTh": "ช้างกลาง",
+      "postalCode": 80250,
+      "postalCodes": [
+        {
+          "postalCode": 80250,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 80220,
+          "isPrimary": false,
+          "detailTh": "ม.8, 16",
+          "detailEn": "Moo 8, 16"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.ช้างกลาง (ม.8, 16)"
+      ]
+    },
+    {
+      "provinceCode": 80,
+      "provinceNameTh": "นครศรีธรรมราช",
+      "districtCode": 8023,
+      "districtNameTh": "เฉลิมพระเกียรติ",
+      "subdistrictCode": 802304,
+      "subdistrictNameTh": "ทางพูน",
+      "postalCode": 80290,
+      "postalCodes": [
+        {
+          "postalCode": 80290,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 2, 6",
+          "detailEn": "Moo 1 - 2, 6 (majority area)"
+        },
+        {
+          "postalCode": 80350,
+          "isPrimary": false,
+          "detailTh": "ม.3 - 4",
+          "detailEn": "Moo 3 - 4"
+        },
+        {
+          "postalCode": 80190,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.ดอนตรอ, ทางพูน (ม.1 - 2, 6)",
+        "- ต.ทางพูน (ม.3 - 4)"
+      ]
+    },
+    {
+      "provinceCode": 81,
+      "provinceNameTh": "กระบี่",
+      "districtCode": 8101,
+      "districtNameTh": "เมืองกระบี่",
+      "subdistrictCode": 810116,
+      "subdistrictNameTh": "อ่าวนาง",
+      "postalCode": 81180,
+      "postalCodes": [
+        {
+          "postalCode": 81180,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 6",
+          "detailEn": "Moo 1 - 6 (majority area)"
+        },
+        {
+          "postalCode": 81210,
+          "isPrimary": false,
+          "detailTh": "ม.7 - 8",
+          "detailEn": "Moo 7 - 8"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.อ่าวนาง ม.1 - 6 ต.หนองทะเล",
+        "ต.อ่าวนาง ม.7 - 8"
+      ]
+    },
+    {
+      "provinceCode": 82,
+      "provinceNameTh": "พังงา",
+      "districtCode": 8205,
+      "districtNameTh": "ตะกั่วป่า",
+      "subdistrictCode": 820504,
+      "subdistrictNameTh": "บางม่วง",
+      "postalCode": 82190,
+      "postalCodes": [
+        {
+          "postalCode": 82190,
+          "isPrimary": true,
+          "detailTh": "ม.1 (บางส่วน), 2 - 8",
+          "detailEn": "Moo 1 (partly), 2 - 8 (majority area)"
+        },
+        {
+          "postalCode": 82110,
+          "isPrimary": false,
+          "detailTh": "ม.1 เฉพาะบ้านเลขที่ 22/, 24/, 25/8, 25/13, 25/15 - 20, 34, 34/, 35, 35/1, 46, 39, 39/, 36, 36/, 37, 37/, 46/, 52, 52/, 55, 58, 40, 40/, 42, 42/, 49/, 43, 43/, 58/, 59, 59/, 90, 90/3 - 8, 99/1 - 3",
+          "detailEn": "Moo 1 only house numbers 22/, 24/, 25/8, 25/13, 25/15 - 20, 34, 34/, 35, 35/1, 46, 39, 39/, 36, 36/, 37, 37/, 46/, 52, 52/, 55, 58, 40, 40/, 42, 42/, 49/, 43, 43/, 58/, 59, 59/, 90, 90/3 - 8, 99/1 - 3"
+        }
+      ],
+      "sourceLines": [
+        "- ต.เกาะคอเขา, บางม่วง (ม.1 (บางส่วน), 2 - 8)",
+        "- ต.บางม่วง ม.1 เฉพาะบ้านเลขที่ 22/, 24/, 25/8, 25/13, 25/15 - 20, 34, 34/, 35, 35/1, 46, 39, 39/, 36, 36/, 37, 37/, 46/, 52, 52/, 55, 58, 40, 40/, 42, 42/, 49/, 43, 43/, 58/, 59, 59/, 90, 90/3 - 8, 99/1 - 3"
+      ]
+    },
+    {
+      "provinceCode": 82,
+      "provinceNameTh": "พังงา",
+      "districtCode": 8208,
+      "districtNameTh": "ท้ายเหมือง",
+      "subdistrictCode": 820806,
+      "subdistrictNameTh": "ลำแก่น",
+      "postalCode": 82210,
+      "postalCodes": [
+        {
+          "postalCode": 82210,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 3, 5 - 6",
+          "detailEn": "Moo 1 - 3, 5 - 6 (majority area)"
+        },
+        {
+          "postalCode": 82120,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.ลำแก่น (ม.1 - 3, 5 - 6)"
+      ]
+    },
+    {
+      "provinceCode": 84,
+      "provinceNameTh": "สุราษฎร์ธานี",
+      "districtCode": 8404,
+      "districtNameTh": "เกาะสมุย",
+      "subdistrictCode": 840401,
+      "subdistrictNameTh": "อ่างทอง",
+      "postalCode": 84140,
+      "postalCodes": [
+        {
+          "postalCode": 84140,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 84220,
+          "isPrimary": false,
+          "detailTh": "ม.6 (เกาะพลวย)",
+          "detailEn": "Moo 6 (Koh Phaluai)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.อ่างทอง (ม.6 (เกาะพลวย))"
+      ]
+    },
+    {
+      "provinceCode": 84,
+      "provinceNameTh": "สุราษฎร์ธานี",
+      "districtCode": 8412,
+      "districtNameTh": "บ้านนาสาร",
+      "subdistrictCode": 841207,
+      "subdistrictNameTh": "ควนสุบรรณ",
+      "postalCode": 84120,
+      "postalCodes": [
+        {
+          "postalCode": 84120,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 84240,
+          "isPrimary": false,
+          "detailTh": "ม.3, 5, 7",
+          "detailEn": "Moo 3, 5, 7"
+        }
+      ],
+      "sourceLines": [
+        "- ต.ควนสุบรรณ (ม.3, 5, 7)"
+      ]
+    },
+    {
+      "provinceCode": 86,
+      "provinceNameTh": "ชุมพร",
+      "districtCode": 8601,
+      "districtNameTh": "เมืองชุมพร",
+      "subdistrictCode": 860103,
+      "subdistrictNameTh": "ท่ายาง",
+      "postalCode": 86000,
+      "postalCodes": [
+        {
+          "postalCode": 86000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 86120,
+          "isPrimary": false,
+          "detailTh": "ม.1, 9 - 10",
+          "detailEn": "Moo 1, 9 - 10"
+        }
+      ],
+      "sourceLines": [
+        "- ต.ปากน้ำ, หาดทรายรี, ท่ายาง (ม.1, 9 - 10)"
+      ]
+    },
+    {
+      "provinceCode": 86,
+      "provinceNameTh": "ชุมพร",
+      "districtCode": 8601,
+      "districtNameTh": "เมืองชุมพร",
+      "subdistrictCode": 860107,
+      "subdistrictNameTh": "ตากแดด",
+      "postalCode": 86000,
+      "postalCodes": [
+        {
+          "postalCode": 86000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 86190,
+          "isPrimary": false,
+          "detailTh": "ม.7 และ 9 (เฉพาะบ้านเลขที่ 1 - 78)",
+          "detailEn": "Moo 7 and 9 (only house numbers 1 - 78)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.บ้านนา, วังใหม่, ขุนกระทิง (ม.1 - 5, 7 - 8), วังไผ่ (ม.4, 8 - 9, 12 - 13), ตากแดด (ม.7 และ 9 (เฉพาะบ้านเลขที่ 1 - 78))"
+      ]
+    },
+    {
+      "provinceCode": 86,
+      "provinceNameTh": "ชุมพร",
+      "districtCode": 8601,
+      "districtNameTh": "เมืองชุมพร",
+      "subdistrictCode": 860110,
+      "subdistrictNameTh": "วังไผ่",
+      "postalCode": 86000,
+      "postalCodes": [
+        {
+          "postalCode": 86000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 86190,
+          "isPrimary": false,
+          "detailTh": "ม.4, 8 - 9, 12 - 13",
+          "detailEn": "Moo 4, 8 - 9, 12 - 13"
+        }
+      ],
+      "sourceLines": [
+        "- ต.บ้านนา, วังใหม่, ขุนกระทิง (ม.1 - 5, 7 - 8), วังไผ่ (ม.4, 8 - 9, 12 - 13), ตากแดด (ม.7 และ 9 (เฉพาะบ้านเลขที่ 1 - 78))"
+      ]
+    },
+    {
+      "provinceCode": 86,
+      "provinceNameTh": "ชุมพร",
+      "districtCode": 8601,
+      "districtNameTh": "เมืองชุมพร",
+      "subdistrictCode": 860113,
+      "subdistrictNameTh": "ขุนกระทิง",
+      "postalCode": 86190,
+      "postalCodes": [
+        {
+          "postalCode": 86190,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 5, 7 - 8",
+          "detailEn": "Moo 1 - 5, 7 - 8 (majority area)"
+        },
+        {
+          "postalCode": 86000,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.บ้านนา, วังใหม่, ขุนกระทิง (ม.1 - 5, 7 - 8), วังไผ่ (ม.4, 8 - 9, 12 - 13), ตากแดด (ม.7 และ 9 (เฉพาะบ้านเลขที่ 1 - 78))"
+      ]
+    },
+    {
+      "provinceCode": 86,
+      "provinceNameTh": "ชุมพร",
+      "districtCode": 8602,
+      "districtNameTh": "ท่าแซะ",
+      "subdistrictCode": 860205,
+      "subdistrictNameTh": "รับร่อ",
+      "postalCode": 86190,
+      "postalCodes": [
+        {
+          "postalCode": 86190,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 9, ม.11 - 18, 20 - 22",
+          "detailEn": "Moo 1 - 9, Moo 11 - 18, 20 - 22 (majority area)"
+        },
+        {
+          "postalCode": 86140,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.หินแก้ว, รับร่อ (ม.1 - 9, ม.11 - 18, 20 - 22)"
+      ]
+    },
+    {
+      "provinceCode": 86,
+      "provinceNameTh": "ชุมพร",
+      "districtCode": 8604,
+      "districtNameTh": "หลังสวน",
+      "subdistrictCode": 860407,
+      "subdistrictNameTh": "บางมะพร้าว",
+      "postalCode": 86110,
+      "postalCodes": [
+        {
+          "postalCode": 86110,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 86150,
+          "isPrimary": false,
+          "detailTh": "ม.8, 10 - 14",
+          "detailEn": "Moo 8, 10 - 14"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.บางน้ำจืด, ปากน้ำ, บางมะพร้าว (ม.8, 10 - 14)"
+      ]
+    },
+    {
+      "provinceCode": 90,
+      "provinceNameTh": "สงขลา",
+      "districtCode": 9005,
+      "districtNameTh": "เทพา",
+      "subdistrictCode": 900505,
+      "subdistrictNameTh": "ท่าม่วง",
+      "postalCode": 90150,
+      "postalCodes": [
+        {
+          "postalCode": 90150,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 90260,
+          "isPrimary": false,
+          "detailTh": "ม.2 - 4, 6 - 7, 10, 12",
+          "detailEn": "Moo 2 - 4, 6 - 7, 10, 12"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.วังใหญ่, ลำไพล, ท่าม่วง (ม.2 - 4, 6 - 7, 10, 12)"
+      ]
+    },
+    {
+      "provinceCode": 90,
+      "provinceNameTh": "สงขลา",
+      "districtCode": 9009,
+      "districtNameTh": "รัตภูมิ",
+      "subdistrictCode": 900904,
+      "subdistrictNameTh": "ควนรู",
+      "postalCode": 90220,
+      "postalCodes": [
+        {
+          "postalCode": 90220,
+          "isPrimary": true,
+          "detailTh": "ม.3 - 6, 8 - 9",
+          "detailEn": "Moo 3 - 6, 8 - 9 (majority area)"
+        },
+        {
+          "postalCode": 90180,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.ควนรู (ม.3 - 6, 8 - 9)"
+      ]
+    },
+    {
+      "provinceCode": 90,
+      "provinceNameTh": "สงขลา",
+      "districtCode": 9010,
+      "districtNameTh": "สะเดา",
+      "subdistrictCode": 901008,
+      "subdistrictNameTh": "สำนักขาม",
+      "postalCode": 90320,
+      "postalCodes": [
+        {
+          "postalCode": 90320,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 2, 5 - 7",
+          "detailEn": "Moo 1 - 2, 5 - 7 (majority area)"
+        },
+        {
+          "postalCode": 90120,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.สำนักขาม (ม.1 - 2, 5 - 7)"
+      ]
+    },
+    {
+      "provinceCode": 90,
+      "provinceNameTh": "สงขลา",
+      "districtCode": 9016,
+      "districtNameTh": "คลองหอยโข่ง",
+      "subdistrictCode": 901603,
+      "subdistrictNameTh": "โคกม่วง",
+      "postalCode": 90230,
+      "postalCodes": [
+        {
+          "postalCode": 90230,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 90115,
+          "isPrimary": false,
+          "detailTh": "ม.8 เฉพาะบ้านพักภายในกองบิน 56",
+          "detailEn": "Moo 8 only housing inside Wing 56 air base"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.คลองหลา, โคกม่วง (ม.8 เฉพาะบ้านพักภายในกองบิน 56)"
+      ]
+    },
+    {
+      "provinceCode": 91,
+      "provinceNameTh": "สตูล",
+      "districtCode": 9101,
+      "districtNameTh": "เมืองสตูล",
+      "subdistrictCode": 910106,
+      "subdistrictNameTh": "เกาะสาหร่าย",
+      "postalCode": 91000,
+      "postalCodes": [
+        {
+          "postalCode": 91000,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 91110,
+          "isPrimary": false,
+          "detailTh": "ม.7 (เกาะหลีเป๊ะ)",
+          "detailEn": "Moo 7 (Koh Lipe)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.เกาะสาหร่าย ม.7 (เกาะหลีเป๊ะ)"
+      ]
+    },
+    {
+      "provinceCode": 93,
+      "provinceNameTh": "พัทลุง",
+      "districtCode": 9309,
+      "districtNameTh": "บางแก้ว",
+      "subdistrictCode": 930903,
+      "subdistrictNameTh": "โคกสัก",
+      "postalCode": 93140,
+      "postalCodes": [
+        {
+          "postalCode": 93140,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 93160,
+          "isPrimary": false,
+          "detailTh": "ม.4, 7 - 8, 10, 13",
+          "detailEn": "Moo 4, 7 - 8, 10, 13"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.โคกสัก (ม.4, 7 - 8, 10, 13)"
+      ]
+    },
+    {
+      "provinceCode": 94,
+      "provinceNameTh": "ปัตตานี",
+      "districtCode": 9404,
+      "districtNameTh": "ปะนาเระ",
+      "subdistrictCode": 940404,
+      "subdistrictNameTh": "ดอน",
+      "postalCode": 94130,
+      "postalCodes": [
+        {
+          "postalCode": 94130,
+          "isPrimary": true,
+          "detailTh": "หมู่/พื้นที่ส่วนใหญ่ที่เหลือของตำบล",
+          "detailEn": "Remaining majority area of the subdistrict (moos not listed)"
+        },
+        {
+          "postalCode": 94190,
+          "isPrimary": false,
+          "detailTh": "ม.1 - 2",
+          "detailEn": "Moo 1 - 2"
+        }
+      ],
+      "sourceLines": [
+        "ยกเว้น ต.ควน, ดอน (ม.1 - 2)"
+      ]
+    },
+    {
+      "provinceCode": 95,
+      "provinceNameTh": "ยะลา",
+      "districtCode": 9504,
+      "districtNameTh": "ธารโต",
+      "subdistrictCode": 950403,
+      "subdistrictNameTh": "แม่หวาด",
+      "postalCode": 95170,
+      "postalCodes": [
+        {
+          "postalCode": 95170,
+          "isPrimary": true,
+          "detailTh": "ม.1 - 5, 7 - 8",
+          "detailEn": "Moo 1 - 5, 7 - 8 (majority area)"
+        },
+        {
+          "postalCode": 95130,
+          "isPrimary": false,
+          "detailTh": "ม.6, 9",
+          "detailEn": "Moo 6, 9"
+        },
+        {
+          "postalCode": 95150,
+          "isPrimary": false,
+          "detailTh": "หมู่/พื้นที่ที่เหลือของตำบล",
+          "detailEn": "Remaining area of the subdistrict (moos not listed)"
+        }
+      ],
+      "sourceLines": [
+        "- ต.แม่หวาด (ม.1 - 5, 7 - 8)",
+        "- ต.แม่หวาด (ม.6, 9)"
+      ]
+    }
+  ]
+}

@@ -39,6 +39,8 @@ Discover the main JSON files with geographical data in the `src/` directory:
 - `provinces.json` - The 77 Thai provinces with their codes and names in English and Thai.
 - `districts.json` - The 928 Thai districts with codes, names in English and Thai, and related province codes.
 - `subdistricts.json` - The 7,436 Thai subdistricts with codes, names in English and Thai, and corresponding district and province codes.
+- `multi-postal-codes.json` - Audit list of the 86 subdistricts served by more than one postal code, with the original Thailand Post poster lines they were derived from.
+- [Source document](https://file.thailandpost.com/upload/content/_5e856abf6c77a.pdf): official Thailand Post poster "รหัสไปรษณีย์ทั่วประเทศ จำแนกตามท้องที่" (status May 2018).
 
 ## Installation
 
@@ -102,7 +104,12 @@ Get to know the keys used in the JSON files:
 - `subdistrictCode` - Subdistrict code (6-digit number).
 - `subdistrictNameEn` - Subdistrict name in English (string).
 - `subdistrictNameTh` - Subdistrict name in Thai (string).
-- `postalCode` - Postal code (5-digit number).
+- `postalCode` - The primary postal code, i.e. the code that applies to most of the subdistrict (5-digit number).
+- `postalCodes` - List of **every** postal code of the subdistrict, so it can be rendered directly as a select dropdown. The primary code is always the first element. Every record has this key; subdistricts served by a single code have a one-element list. Based on the official Thailand Post poster "รหัสไปรษณีย์ทั่วประเทศ จำแนกตามท้องที่" (May 2018). Each entry:
+  - `postalCode` - Postal code used in a specific part of the subdistrict (5-digit number).
+  - `isPrimary` - `true` for the primary (majority-area) code, `false` otherwise (boolean).
+  - `detailTh` - Thai description of the area using this code — the whole subdistrict, village (หมู่ที่) numbers, village names, or specific house/soi ranges (string).
+  - `detailEn` - English description of the same area (string).
 
 ## Sample Data
 
@@ -142,7 +149,43 @@ Check out sample data from each JSON file:
   "subdistrictCode": 100101,
   "subdistrictNameEn": "Phra Borom Maha Ratchawang",
   "subdistrictNameTh": "พระบรมมหาราชวัง",
-  "postalCode": 10200
+  "postalCode": 10200,
+  "postalCodes": [
+    {
+      "postalCode": 10200,
+      "isPrimary": true,
+      "detailTh": "ทั้งตำบล",
+      "detailEn": "Whole subdistrict"
+    }
+  ]
+}
+```
+
+A subdistrict served by more than one postal code lists all of them in `postalCodes`, e.g. Ao Nang in Krabi where Moo 7-8 use a different code than the rest of the subdistrict:
+
+```json
+{
+  "id": 6530,
+  "provinceCode": 81,
+  "districtCode": 8101,
+  "subdistrictCode": 810116,
+  "subdistrictNameEn": "Ao Nang",
+  "subdistrictNameTh": "อ่าวนาง",
+  "postalCode": 81180,
+  "postalCodes": [
+    {
+      "postalCode": 81180,
+      "isPrimary": true,
+      "detailTh": "ม.1 - 6",
+      "detailEn": "Moo 1 - 6 (majority area)"
+    },
+    {
+      "postalCode": 81210,
+      "isPrimary": false,
+      "detailTh": "ม.7 - 8",
+      "detailEn": "Moo 7 - 8"
+    }
+  ]
 }
 ```
 
@@ -160,7 +203,15 @@ Check out sample data from each JSON file:
   "subdistrictCode": 100101,
   "subdistrictNameEn": "Phra Borom Maha Ratchawang",
   "subdistrictNameTh": "พระบรมมหาราชวัง",
-  "postalCode": 10200
+  "postalCode": 10200,
+  "postalCodes": [
+    {
+      "postalCode": 10200,
+      "isPrimary": true,
+      "detailTh": "ทั้งตำบล",
+      "detailEn": "Whole subdistrict"
+    }
+  ]
 }
 ```
 

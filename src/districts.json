@@ -211,7 +211,7 @@
     "id": 27,
     "provinceCode": 10,
     "districtCode": 1027,
-    "districtNameEn": "Bung Kum",
+    "districtNameEn": "Bueng Kum",
     "districtNameTh": "บึงกุ่ม",
     "postalCode": 10240
   },
@@ -227,7 +227,7 @@
     "id": 29,
     "provinceCode": 10,
     "districtCode": 1029,
-    "districtNameEn": "Bang Su",
+    "districtNameEn": "Bang Sue",
     "districtNameTh": "บางซื่อ",
     "postalCode": 10800
   },
@@ -387,7 +387,7 @@
     "id": 49,
     "provinceCode": 10,
     "districtCode": 1049,
-    "districtNameEn": "Thung Khu",
+    "districtNameEn": "Thung Khru",
     "districtNameTh": "ทุ่งครุ",
     "postalCode": 10140
   },
@@ -517,7 +517,7 @@
     "districtCode": 1303,
     "districtNameEn": "Thanyaburi",
     "districtNameTh": "ธัญบุรี",
-    "postalCode": 12130
+    "postalCode": 12110
   },
   {
     "id": 66,
@@ -541,7 +541,7 @@
     "districtCode": 1306,
     "districtNameEn": "Lam Luk Ka",
     "districtNameTh": "ลำลูกกา",
-    "postalCode": 12130
+    "postalCode": 12150
   },
   {
     "id": 69,
@@ -1035,7 +1035,7 @@
     "id": 130,
     "provinceCode": 19,
     "districtCode": 1913,
-    "districtNameEn": "Chaloem Phra Kiet",
+    "districtNameEn": "Chaloem Phra Kiat",
     "districtNameTh": "เฉลิมพระเกียรติ",
     "postalCode": 18000
   },
@@ -1395,7 +1395,7 @@
     "id": 175,
     "provinceCode": 24,
     "districtCode": 2409,
-    "districtNameEn": "Pleang Yao",
+    "districtNameEn": "Plaeng Yao",
     "districtNameTh": "แปลงยาว",
     "postalCode": 24190
   },
@@ -1803,7 +1803,7 @@
     "id": 226,
     "provinceCode": 30,
     "districtCode": 3029,
-    "districtNameEn": "Lamtaman Chai",
+    "districtNameEn": "Lam Thamenchai",
     "districtNameTh": "ลำทะเมนชัย",
     "postalCode": 30270
   },
@@ -1827,7 +1827,7 @@
     "id": 229,
     "provinceCode": 30,
     "districtCode": 3032,
-    "districtNameEn": "Chaloem Phra Kiet",
+    "districtNameEn": "Chaloem Phra Kiat",
     "districtNameTh": "เฉลิมพระเกียรติ",
     "postalCode": 30230
   },
@@ -1963,7 +1963,7 @@
     "id": 246,
     "provinceCode": 31,
     "districtCode": 3117,
-    "districtNameEn": "Non Din Daeng",
+    "districtNameEn": "Non Suwan",
     "districtNameTh": "โนนสุวรรณ",
     "postalCode": 31110
   },
@@ -2011,7 +2011,7 @@
     "id": 252,
     "provinceCode": 31,
     "districtCode": 3123,
-    "districtNameEn": "Chaloem Phra Kiet",
+    "districtNameEn": "Chaloem Phra Kiat",
     "districtNameTh": "เฉลิมพระเกียรติ",
     "postalCode": 31110
   },
@@ -2395,7 +2395,7 @@
     "id": 300,
     "provinceCode": 34,
     "districtCode": 3410,
-    "districtNameEn": "Boontharik",
+    "districtNameEn": "Buntharik",
     "districtNameTh": "บุณฑริก",
     "postalCode": 34230
   },
@@ -2781,13 +2781,13 @@
     "districtCode": 3707,
     "districtNameEn": "Lue Amnat",
     "districtNameTh": "ลืออำนาจ",
-    "postalCode": 37000
+    "postalCode": 37120
   },
   {
     "id": 349,
     "provinceCode": 38,
     "districtCode": 3801,
-    "districtNameEn": "Bueng Kan",
+    "districtNameEn": "Mueang Bueng Kan",
     "districtNameTh": "เมืองบึงกาฬ",
     "postalCode": 38000
   },
@@ -3125,7 +3125,7 @@
     "districtCode": 4103,
     "districtNameEn": "Nong Wua So",
     "districtNameTh": "หนองวัวซอ",
-    "postalCode": 41360
+    "postalCode": 41220
   },
   {
     "id": 392,
@@ -3147,7 +3147,7 @@
     "id": 394,
     "provinceCode": 41,
     "districtCode": 4106,
-    "districtNameEn": "Nong Saeng",
+    "districtNameEn": "Nong Han",
     "districtNameTh": "หนองหาน",
     "postalCode": 41130
   },
@@ -3429,7 +3429,7 @@
     "districtCode": 4315,
     "districtNameEn": "Fao Rai",
     "districtNameTh": "เฝ้าไร่",
-    "postalCode": 43120
+    "postalCode": 43230
   },
   {
     "id": 430,
@@ -3837,7 +3837,7 @@
     "districtCode": 4616,
     "districtNameEn": "Na Khu",
     "districtNameTh": "นาคู",
-    "postalCode": 46160
+    "postalCode": 46250
   },
   {
     "id": 481,
@@ -3891,7 +3891,7 @@
     "id": 487,
     "provinceCode": 47,
     "districtCode": 4705,
-    "districtNameEn": "Phanh Khon",
+    "districtNameEn": "Phang Khon",
     "districtNameTh": "พังโคน",
     "postalCode": 47160
   },
@@ -3997,7 +3997,7 @@
     "districtCode": 4718,
     "districtNameEn": "Phu Phan",
     "districtNameTh": "ภูพาน",
-    "postalCode": 47180
+    "postalCode": 47310
   },
   {
     "id": 501,
@@ -4123,7 +4123,7 @@
     "id": 516,
     "provinceCode": 49,
     "districtCode": 4904,
-    "districtNameEn": "Don Tan",
+    "districtNameEn": "Dong Luang",
     "districtNameTh": "ดงหลวง",
     "postalCode": 49140
   },
@@ -4157,7 +4157,7 @@
     "districtCode": 5001,
     "districtNameEn": "Mueang Chiang Mai",
     "districtNameTh": "เมืองเชียงใหม่",
-    "postalCode": 50200
+    "postalCode": 50000
   },
   {
     "id": 521,
@@ -4603,7 +4603,7 @@
     "id": 576,
     "provinceCode": 54,
     "districtCode": 5402,
-    "districtNameEn": "Mueang Phrae",
+    "districtNameEn": "Rong Kwang",
     "districtNameTh": "ร้องกวาง",
     "postalCode": 54140
   },
@@ -4771,7 +4771,7 @@
     "id": 597,
     "provinceCode": 55,
     "districtCode": 5515,
-    "districtNameEn": "Chaloem Phra Kiet",
+    "districtNameEn": "Chaloem Phra Kiat",
     "districtNameTh": "เฉลิมพระเกียรติ",
     "postalCode": 55130
   },
@@ -4965,7 +4965,7 @@
     "districtCode": 5715,
     "districtNameEn": "Mae Fa Luang",
     "districtNameTh": "แม่ฟ้าหลวง",
-    "postalCode": 57240
+    "postalCode": 57110
   },
   {
     "id": 622,
@@ -4981,7 +4981,7 @@
     "districtCode": 5717,
     "districtNameEn": "Wiang Chiang Rung",
     "districtNameTh": "เวียงเชียงรุ้ง",
-    "postalCode": 57210
+    "postalCode": 57350
   },
   {
     "id": 624,
@@ -5123,7 +5123,7 @@
     "id": 641,
     "provinceCode": 60,
     "districtCode": 6010,
-    "districtNameEn": "Phayuha Hkiri",
+    "districtNameEn": "Phayuha Khiri",
     "districtNameTh": "พยุหะคีรี",
     "postalCode": 60130
   },
@@ -5155,7 +5155,7 @@
     "id": 645,
     "provinceCode": 60,
     "districtCode": 6014,
-    "districtNameEn": "Mae Pern",
+    "districtNameEn": "Mae Poen",
     "districtNameTh": "แม่เปิน",
     "postalCode": 60150
   },
@@ -5389,7 +5389,7 @@
     "districtCode": 6309,
     "districtNameEn": "Wang Chao",
     "districtNameTh": "วังเจ้า",
-    "postalCode": 63000
+    "postalCode": 63180
   },
   {
     "id": 675,
@@ -5461,7 +5461,7 @@
     "districtCode": 6409,
     "districtNameEn": "Thung Saliam",
     "districtNameTh": "ทุ่งเสลี่ยม",
-    "postalCode": 64230
+    "postalCode": 64150
   },
   {
     "id": 684,
@@ -5595,7 +5595,7 @@
     "id": 700,
     "provinceCode": 66,
     "districtCode": 6608,
-    "districtNameEn": "Tap Khlo",
+    "districtNameEn": "Thap Khlo",
     "districtNameTh": "ทับคล้อ",
     "postalCode": 66150
   },
@@ -5907,7 +5907,7 @@
     "id": 739,
     "provinceCode": 72,
     "districtCode": 7201,
-    "districtNameEn": "Mueang Saphan Buri",
+    "districtNameEn": "Mueang Suphan Buri",
     "districtNameTh": "เมืองสุพรรณบุรี",
     "postalCode": 72000
   },
@@ -6213,7 +6213,7 @@
     "districtCode": 7708,
     "districtNameEn": "Sam Roi Yot",
     "districtNameTh": "สามร้อยยอด",
-    "postalCode": 77120
+    "postalCode": 77180
   },
   {
     "id": 778,
@@ -6365,7 +6365,7 @@
     "districtCode": 8019,
     "districtNameEn": "Chulabhorn",
     "districtNameTh": "จุฬาภรณ์",
-    "postalCode": 80180
+    "postalCode": 80130
   },
   {
     "id": 797,
@@ -6395,7 +6395,7 @@
     "id": 800,
     "provinceCode": 80,
     "districtCode": 8023,
-    "districtNameEn": "Chaloem Phra Kiet",
+    "districtNameEn": "Chaloem Phra Kiat",
     "districtNameTh": "เฉลิมพระเกียรติ",
     "postalCode": 80190
   },
@@ -6453,7 +6453,7 @@
     "districtCode": 8107,
     "districtNameEn": "Lam Thap",
     "districtNameTh": "ลำทับ",
-    "postalCode": 81120
+    "postalCode": 81190
   },
   {
     "id": 808,
@@ -6565,7 +6565,7 @@
     "districtCode": 8402,
     "districtNameEn": "Kanchanadit",
     "districtNameTh": "กาญจนดิษฐ์",
-    "postalCode": 84290
+    "postalCode": 84160
   },
   {
     "id": 822,
@@ -6699,9 +6699,9 @@
     "id": 838,
     "provinceCode": 84,
     "districtCode": 8419,
-    "districtNameEn": "Chai Buri",
+    "districtNameEn": "Vibhavadi",
     "districtNameTh": "วิภาวดี",
-    "postalCode": 84180
+    "postalCode": 84370
   },
   {
     "id": 839,
@@ -6723,7 +6723,7 @@
     "id": 841,
     "provinceCode": 85,
     "districtCode": 8503,
-    "districtNameEn": "Papoe",
+    "districtNameEn": "Kapoe",
     "districtNameTh": "กะเปอร์",
     "postalCode": 85120
   },
@@ -6811,7 +6811,7 @@
     "id": 852,
     "provinceCode": 90,
     "districtCode": 9001,
-    "districtNameEn": "Muaeng Songkhla",
+    "districtNameEn": "Mueang Songkhla",
     "districtNameTh": "เมืองสงขลา",
     "postalCode": 90000
   },
@@ -7149,7 +7149,7 @@
     "districtCode": 9310,
     "districtNameEn": "Pa Phayom",
     "districtNameTh": "ป่าพะยอม",
-    "postalCode": 93110
+    "postalCode": 93210
   },
   {
     "id": 895,
@@ -7339,7 +7339,7 @@
     "id": 918,
     "provinceCode": 96,
     "districtCode": 9603,
-    "districtNameEn": "Tak Bai",
+    "districtNameEn": "Bacho",
     "districtNameTh": "บาเจาะ",
     "postalCode": 96170
   },
