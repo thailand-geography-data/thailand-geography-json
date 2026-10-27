@@ -1,6 +1,6 @@
 {
   "source": {
-    "document": "docs/thailand-post-poster-2561.pdf",
+    "document": "https://file.thailandpost.com/upload/content/_5e856abf6c77a.pdf",
     "title": "รหัสไปรษณีย์ทั่วประเทศ จำแนกตามท้องที่ (ไปรษณีย์ไทย — ข้อมูลสถานะเดือนพฤษภาคม 2561)",
     "note": "รายการนี้รวมเฉพาะตำบล/แขวงที่มีมากกว่าหนึ่งรหัสไปรษณีย์ เพื่อใช้ตรวจสอบย้อนกลับกับข้อมูลใน subdistricts.json และ geography.json โดย sourceLines คือข้อความส่วน \"ยกเว้น\" ตามที่ปรากฏในโปสเตอร์",
     "generatedAt": "2026-10-07"

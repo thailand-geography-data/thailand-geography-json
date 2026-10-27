@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `isPrimary` - `true` for the primary (majority-area) code
   - `detailTh` / `detailEn` - Thai/English description of the area (whole subdistrict, Moo (village) numbers, village names, or specific house/soi ranges)
 - 86 subdistricts are served by more than one postal code and list all of their codes; the remaining 7,350 carry a single-element list.
-- Added `docs/thailand-post-poster-2561.pdf` — the source document (Thailand Post poster, status May 2018) — and `src/multi-postal-codes.json`, an audit list of the 86 multi-postal-code subdistricts including the original poster lines (`sourceLines`) each entry was derived from.
+- Added `src/multi-postal-codes.json`, an audit list of the 86 multi-postal-code subdistricts including the original poster lines (`sourceLines`) each entry was derived from. The source document is the Thailand Post poster (status May 2018): https://file.thailandpost.com/upload/content/_5e856abf6c77a.pdf.
 - Updated `README.md` to document the new key.
 
 ### Changed

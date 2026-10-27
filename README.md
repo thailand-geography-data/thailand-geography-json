@@ -40,7 +40,7 @@ Discover the main JSON files with geographical data in the `src/` directory:
 - `districts.json` - The 928 Thai districts with codes, names in English and Thai, and related province codes.
 - `subdistricts.json` - The 7,436 Thai subdistricts with codes, names in English and Thai, and corresponding district and province codes.
 - `multi-postal-codes.json` - Audit list of the 86 subdistricts served by more than one postal code, with the original Thailand Post poster lines they were derived from.
-- `docs/thailand-post-poster-2561.pdf` - The source document: official Thailand Post poster "รหัสไปรษณีย์ทั่วประเทศ จำแนกตามท้องที่" (status May 2018).
+- [Source document](https://file.thailandpost.com/upload/content/_5e856abf6c77a.pdf): official Thailand Post poster "รหัสไปรษณีย์ทั่วประเทศ จำแนกตามท้องที่" (status May 2018).
 
 ## Installation
 
