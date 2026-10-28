@@ -649,6 +649,113 @@ class ValidateRepositoryTests(unittest.TestCase):
             errors,
         )
 
+    def test_regions_dataset_requires_exactly_six_regions(self) -> None:
+        fixture_root = self.fixture_root()
+        regions_path = fixture_root / "src/regions.json"
+        regions = json.loads(regions_path.read_text(encoding="utf-8"))
+        regions.append(
+            {"regionCode": 7, "regionNameEn": "Extra", "regionNameTh": "เพิ่ม", "provinceCodes": [10]}
+        )
+        regions_path.write_text(json.dumps(regions), encoding="utf-8")
+
+        errors = validate_repository(fixture_root)
+
+        self.assertIn("src/regions.json: expected exactly 6 regions, found 7", errors)
+
+    def test_reports_invalid_region_code_and_names(self) -> None:
+        fixture_root = self.fixture_root()
+        regions_path = fixture_root / "src/regions.json"
+        regions = json.loads(regions_path.read_text(encoding="utf-8"))
+        regions[0]["regionCode"] = "1"
+        regions[1]["regionCode"] = 7
+        regions[2]["regionNameEn"] = ""
+        regions[3]["regionNameTh"] = " "
+        regions_path.write_text(json.dumps(regions), encoding="utf-8")
+
+        errors = validate_repository(fixture_root)
+
+        self.assertIn(
+            "src/regions.json[0] (regionCode=1): field 'regionCode' must be an integer",
+            errors,
+        )
+        self.assertIn(
+            "src/regions.json[1] (regionCode=7): field 'regionCode' must be an integer "
+            "between 1 and 6",
+            errors,
+        )
+        self.assertIn(
+            "src/regions.json[2] (regionCode=3): field 'regionNameEn' must be a "
+            "non-empty string",
+            errors,
+        )
+        self.assertIn(
+            "src/regions.json[3] (regionCode=4): field 'regionNameTh' must be a "
+            "non-empty string",
+            errors,
+        )
+
+    def test_reports_duplicate_region_code_and_empty_province_codes(self) -> None:
+        fixture_root = self.fixture_root()
+        regions_path = fixture_root / "src/regions.json"
+        regions = json.loads(regions_path.read_text(encoding="utf-8"))
+        regions[1]["regionCode"] = regions[0]["regionCode"]
+        regions[2]["provinceCodes"] = []
+        regions_path.write_text(json.dumps(regions), encoding="utf-8")
+
+        errors = validate_repository(fixture_root)
+
+        self.assertIn("src/regions.json: duplicate regionCode 1 at records 0 and 1", errors)
+        self.assertIn(
+            "src/regions.json[2] (regionCode=3): provinceCodes must be a non-empty list",
+            errors,
+        )
+
+    def test_reports_unknown_and_non_integer_region_province_codes(self) -> None:
+        fixture_root = self.fixture_root()
+        regions_path = fixture_root / "src/regions.json"
+        regions = json.loads(regions_path.read_text(encoding="utf-8"))
+        regions[0]["provinceCodes"][0] = 999
+        regions[1]["provinceCodes"][1] = "50"
+        regions_path.write_text(json.dumps(regions), encoding="utf-8")
+
+        errors = validate_repository(fixture_root)
+
+        self.assertIn("src/regions.json[0] (regionCode=1): unknown provinceCode 999", errors)
+        self.assertIn(
+            "src/regions.json[1] (regionCode=2): provinceCodes[1] must be an integer",
+            errors,
+        )
+
+    def test_reports_province_assigned_to_multiple_regions(self) -> None:
+        fixture_root = self.fixture_root()
+        regions_path = fixture_root / "src/regions.json"
+        regions = json.loads(regions_path.read_text(encoding="utf-8"))
+        regions[1]["provinceCodes"].append(regions[0]["provinceCodes"][0])
+        regions_path.write_text(json.dumps(regions), encoding="utf-8")
+
+        errors = validate_repository(fixture_root)
+
+        self.assertIn(
+            "src/regions.json: duplicate provinceCode 57 in regions 1 and 2",
+            errors,
+        )
+
+    def test_reports_province_codes_missing_from_or_unexpected_in_regions(self) -> None:
+        fixture_root = self.fixture_root()
+        regions_path = fixture_root / "src/regions.json"
+        regions = json.loads(regions_path.read_text(encoding="utf-8"))
+        removed = regions[5]["provinceCodes"].pop()
+        regions[0]["provinceCodes"].append(999)
+        regions_path.write_text(json.dumps(regions), encoding="utf-8")
+
+        errors = validate_repository(fixture_root)
+
+        self.assertIn(
+            "src/regions.json: provinceCode set does not match src/provinces.json "
+            f"(missing=[{removed}], unexpected=[999])",
+            errors,
+        )
+
     def fixture_root(self):
         temporary_directory = tempfile.TemporaryDirectory()
         self.addCleanup(temporary_directory.cleanup)

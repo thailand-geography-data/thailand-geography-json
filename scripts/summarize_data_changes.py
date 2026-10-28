@@ -18,6 +18,7 @@ DATASET_PATHS = (
     "src/subdistricts.json",
     "src/geography.json",
     "src/multi-postal-codes.json",
+    "src/regions.json",
 )
 
 
@@ -28,6 +29,7 @@ class DatasetChangeSummary:
     field_changes: dict[str, int]
     postal_codes_delta: tuple[int, int, int]
     changed_geographic_identifiers: list[tuple[str, str]]
+    region_province_codes_delta: tuple[int, int, int] = (0, 0, 0)
 
 
 def records(data: Any, path: str) -> list[dict[str, Any]]:
@@ -41,6 +43,8 @@ def geographic_fields_for(path: str) -> tuple[str, ...]:
         return ("provinceCode",)
     if path == "src/districts.json":
         return ("provinceCode", "districtCode")
+    if path == "src/regions.json":
+        return ("regionCode",)
     return ("provinceCode", "districtCode", "subdistrictCode")
 
 
@@ -95,6 +99,19 @@ def safely_pair_records(base_records, candidate_records, fields):
     return pairs
 
 
+def annotation_identifier(base_record, candidate_record, code_fields) -> str:
+    """Label an annotation by `id` when the record has one, else its first geographic code."""
+    if "id" in base_record or "id" in candidate_record:
+        if base_record.get("id") == candidate_record.get("id"):
+            return f"id={base_record.get('id')}"
+        return f"id={base_record.get('id')} → {candidate_record.get('id')}"
+    for field in code_fields:
+        if field in base_record or field in candidate_record:
+            value = base_record[field] if field in base_record else candidate_record[field]
+            return f"{field}={value}"
+    return "unknown record"
+
+
 def compare_records(base_records, candidate_records, path: str) -> DatasetChangeSummary:
     code_fields = geographic_fields_for(path)
     pairs = safely_pair_records(base_records, candidate_records, code_fields)
@@ -109,6 +126,9 @@ def compare_records(base_records, candidate_records, path: str) -> DatasetChange
     added_postal_entries = 0
     removed_postal_entries = 0
     changed_lists = 0
+    added_region_provinces = 0
+    removed_region_provinces = 0
+    changed_region_lists = 0
     for base_index, candidate_index in pairs:
         base_record = base_records[base_index]
         candidate_record = candidate_records[candidate_index]
@@ -129,14 +149,9 @@ def compare_records(base_records, candidate_records, path: str) -> DatasetChange
         )
         postal_codes += base_record.get("postalCode") != candidate_record.get("postalCode")
         if geographic_fields:
-            identifier = (
-                f"id={base_record.get('id')}"
-                if base_record.get("id") == candidate_record.get("id")
-                else f"id={base_record.get('id')} → {candidate_record.get('id')}"
-            )
             annotations.append(
                 (
-                    identifier,
+                    annotation_identifier(base_record, candidate_record, code_fields),
                     ", ".join(
                         f"{field}: {base_record.get(field)} → {candidate_record.get(field)}"
                         for field in geographic_fields
@@ -155,6 +170,19 @@ def compare_records(base_records, candidate_records, path: str) -> DatasetChange
             elif difference < 0:
                 removed_postal_entries -= difference
                 changed_lists += 1
+        if path == "src/regions.json":
+            base_provinces = base_record.get("provinceCodes", [])
+            candidate_provinces = candidate_record.get("provinceCodes", [])
+            if not isinstance(base_provinces, list) or not isinstance(candidate_provinces, list):
+                continue
+            try:
+                base_province_set = set(base_provinces)
+                candidate_province_set = set(candidate_provinces)
+            except TypeError:
+                continue
+            added_region_provinces += len(candidate_province_set - base_province_set)
+            removed_region_provinces += len(base_province_set - candidate_province_set)
+            changed_region_lists += base_province_set != candidate_province_set
     return DatasetChangeSummary(
         added=len(candidate_records) - len(paired_candidate),
         removed=len(base_records) - len(paired_base),
@@ -167,6 +195,11 @@ def compare_records(base_records, candidate_records, path: str) -> DatasetChange
         },
         postal_codes_delta=(added_postal_entries, removed_postal_entries, changed_lists),
         changed_geographic_identifiers=annotations,
+        region_province_codes_delta=(
+            added_region_provinces,
+            removed_region_provinces,
+            changed_region_lists,
+        ),
     )
 
 
@@ -261,6 +294,11 @@ def render_summary(summary) -> str:
             added, removed, changed_lists = change.postal_codes_delta
             lines.append(
                 f"- postalCodes entries: +{added} / -{removed} across {changed_lists} changed lists"
+            )
+        if path == "src/regions.json":
+            added, removed, changed_lists = change.region_province_codes_delta
+            lines.append(
+                f"- provinceCodes entries: +{added} / -{removed} across {changed_lists} changed lists"
             )
     return "\n".join(lines) + "\n"
 

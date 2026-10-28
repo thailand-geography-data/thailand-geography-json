@@ -41,6 +41,7 @@ Discover the main JSON files with geographical data in the `src/` directory:
 - `districts.json` - The 928 Thai districts with codes, names in English and Thai, and related province codes.
 - `subdistricts.json` - The 7,436 Thai subdistricts with codes, names in English and Thai, and corresponding district and province codes.
 - `multi-postal-codes.json` - Audit list of the 86 subdistricts served by more than one postal code, with the original Thailand Post poster lines they were derived from.
+- `regions.json` - The official 6-region geographic division of the 77 provinces (North, Central, Northeast, East, West, South) with Thai names and member province codes.
 - [Source document](https://file.thailandpost.com/upload/content/_5e856abf6c77a.pdf): official Thailand Post poster "รหัสไปรษณีย์ทั่วประเทศ จำแนกตามท้องที่" (status May 2018).
 
 ## Installation
@@ -111,6 +112,10 @@ Get to know the keys used in the JSON files:
   - `isPrimary` - `true` for the primary (majority-area) code, `false` otherwise (boolean).
   - `detailTh` - Thai description of the area using this code — the whole subdistrict, village (หมู่ที่) numbers, village names, or specific house/soi ranges (string).
   - `detailEn` - English description of the same area (string).
+- `regionCode` - Region code (number `1`–`6`, unique per region).
+- `regionNameEn` - Region name in English (string).
+- `regionNameTh` - Region name in Thai (string).
+- `provinceCodes` - List of the `provinceCode` values of every province in the region (numbers); each of the 77 provinces belongs to exactly one region.
 
 ## Sample Data
 
@@ -216,6 +221,19 @@ A subdistrict served by more than one postal code lists all of them in `postalCo
 }
 ```
 
+### regions.json
+
+```json
+{
+  "regionCode": 1,
+  "regionNameEn": "North",
+  "regionNameTh": "เหนือ",
+  "provinceCodes": [57, 55, 56, 50, 58, 54, 52, 51, 53]
+}
+```
+
+`provinceCodes` holds the `provinceCode` values of the region's provinces (the North has 9); the file is ordered by `regionCode` from 1 (North) to 6 (South). The division follows the official six-region geographic classification of Thailand (Royal Institute, per the National Geographical Committee 1977).
+
 ## Data validation
 
 Run the repository validation before submitting data changes:
@@ -225,7 +243,7 @@ python3 -m unittest discover -s tests -v
 python3 scripts/validate_data.py
 ```
 
-The validator uses only the Python standard library. It parses `package.json` and every JSON file under `src/`, rejects invalid UTF-8 and duplicate object keys, verifies dataset roots and required fields, validates identifier widths and referential integrity, checks exact geography/subdistrict coverage, postal-code invariants, and the multi-postal-code audit.
+The validator uses only the Python standard library. It parses `package.json` and every JSON file under `src/`, rejects invalid UTF-8 and duplicate object keys, verifies dataset roots and required fields, validates identifier widths and referential integrity, checks exact geography/subdistrict coverage, postal-code invariants, the multi-postal-code audit, and 6-region coverage of the provinces.
 
 ## How to Contribute
 

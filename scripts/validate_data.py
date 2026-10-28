@@ -17,6 +17,7 @@ DATA_PATHS = (
   Path("src/subdistricts.json"),
   Path("src/geography.json"),
   Path("src/multi-postal-codes.json"),
+  Path("src/regions.json"),
 )
 MAX_JSON_BYTES = 16 * 1024 * 1024
 
@@ -59,6 +60,12 @@ RECORD_SCHEMAS = {
     "postalCode": int,
     "postalCodes": list,
   },
+  "src/regions.json": {
+    "regionCode": int,
+    "regionNameEn": str,
+    "regionNameTh": str,
+    "provinceCodes": list,
+  },
 }
 
 UNIQUE_FIELDS = {
@@ -66,9 +73,10 @@ UNIQUE_FIELDS = {
   "src/districts.json": ("id", "districtCode"),
   "src/subdistricts.json": ("id", "subdistrictCode"),
   "src/geography.json": ("id", "subdistrictCode"),
+  "src/regions.json": ("regionCode",),
 }
 
-IDENTIFIER_FIELDS = ("subdistrictCode", "districtCode", "provinceCode", "id")
+IDENTIFIER_FIELDS = ("regionCode", "subdistrictCode", "districtCode", "provinceCode", "id")
 CODE_WIDTHS = {
   "provinceCode": (10, 99, "two"),
   "districtCode": (1000, 9999, "four"),
@@ -564,6 +572,57 @@ def load_json(root: Path, relative_path: Path, errors: list[str]) -> Any:
     return None
 
 
+def validate_regions(datasets: dict[str, Any], errors: list[str]) -> None:
+  relative_path = "src/regions.json"
+  regions = datasets.get(relative_path)
+  if not isinstance(regions, list):
+    return
+  if len(regions) != 6:
+    errors.append(f"{relative_path}: expected exactly 6 regions, found {len(regions)}")
+  provinces = index_by(datasets.get("src/provinces.json"), "provinceCode")
+  assigned_regions: dict[int, object] = {}
+  for index, record in enumerate(regions):
+    if not isinstance(record, dict):
+      continue
+    label = record_label(Path(relative_path), index, record)
+    region_code = record.get("regionCode")
+    if type(region_code) is int and not 1 <= region_code <= 6:
+      errors.append(f"{label}: field 'regionCode' must be an integer between 1 and 6")
+    province_codes = record.get("provinceCodes")
+    if isinstance(province_codes, list) and not province_codes:
+      errors.append(f"{label}: provinceCodes must be a non-empty list")
+    if not isinstance(province_codes, list):
+      continue
+    for position, province_code in enumerate(province_codes):
+      if type(province_code) is not int:
+        errors.append(f"{label}: provinceCodes[{position}] must be an integer")
+        continue
+      if province_code in assigned_regions:
+        errors.append(
+          f"{relative_path}: duplicate provinceCode {province_code!r} in regions "
+          f"{assigned_regions[province_code]!r} and {region_code!r}"
+        )
+      else:
+        assigned_regions[province_code] = region_code
+      if indexed_record(provinces, province_code) is None:
+        errors.append(f"{label}: unknown provinceCode {province_code!r}")
+  provinces_data = datasets.get("src/provinces.json")
+  if not isinstance(provinces_data, list):
+    provinces_data = []
+  expected_codes = {
+    record["provinceCode"]
+    for record in provinces_data
+    if isinstance(record, dict) and type(record.get("provinceCode")) is int
+  }
+  missing = sorted(expected_codes - set(assigned_regions))
+  unexpected = sorted(set(assigned_regions) - expected_codes)
+  if missing or unexpected:
+    errors.append(
+      f"{relative_path}: provinceCode set does not match src/provinces.json "
+      f"(missing={missing}, unexpected={unexpected})"
+    )
+
+
 def validate_repository(root: Path) -> list[str]:
   """Return all JSON parsing errors for the repository rooted at *root*."""
   errors: list[str] = []
@@ -596,6 +655,7 @@ def validate_repository(root: Path) -> list[str]:
   validate_foreign_keys(datasets, errors)
   validate_geography_subdistrict_keys(datasets, errors)
   validate_multi_postal(datasets, errors)
+  validate_regions(datasets, errors)
   return errors
 
 
