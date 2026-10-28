@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-10-28
+
 ### Added
 
 - Added `src/regions.json`, the official six-region geographic division of the 77 provinces (North, Central, Northeast, East, West, South) with Thai/English region names and member `provinceCode` values, following the Royal Institute classification "การแบ่งภูมิภาคทางภูมิศาสตร์" per the National Geographical Committee 1977. Each province belongs to exactly one region.
