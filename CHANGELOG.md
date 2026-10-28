@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added `src/regions.json`, the official six-region geographic division of the 77 provinces (North, Central, Northeast, East, West, South) with Thai/English region names and member `provinceCode` values, following the Royal Institute classification "การแบ่งภูมิภาคทางภูมิศาสตร์" per the National Geographical Committee 1977. Each province belongs to exactly one region.
+- `scripts/validate_data.py` now validates `src/regions.json`: exactly six regions, `regionCode` 1–6 and unique, non-empty names, non-empty `provinceCodes`, referential integrity against `provinces.json`, no province in two regions, and full coverage of the 77 provinces.
+- Updated `README.md` to document `regions.json` and its keys.
+
 ## [1.2.1] - 2026-10-28
 
 ### Added
