@@ -9,6 +9,7 @@ import unittest
 
 from scripts.summarize_data_changes import (
     DATASET_PATHS,
+    annotation_identifier,
     compare_directory_datasets,
     compare_git_revisions,
     render_summary,
@@ -181,6 +182,93 @@ class DataChangeSummaryTests(unittest.TestCase):
         self.assertEqual(2, provinces.removed)
         self.assertTrue(all(count == 0 for count in provinces.field_changes.values()))
         self.assertEqual([], provinces.changed_geographic_identifiers)
+
+    def test_identifies_id_less_records_by_their_geographic_code(self) -> None:
+        self.assertEqual(
+            "regionCode=1",
+            annotation_identifier(
+                {"regionCode": 1, "provinceCodes": [57]},
+                {"regionCode": 7, "provinceCodes": [57]},
+                ("regionCode",),
+            ),
+        )
+        self.assertEqual(
+            "id=4",
+            annotation_identifier(
+                {"id": 4, "provinceCode": 10},
+                {"id": 4, "provinceCode": 11},
+                ("provinceCode",),
+            ),
+        )
+        self.assertEqual(
+            "id=4 → 5",
+            annotation_identifier(
+                {"id": 4, "provinceCode": 10},
+                {"id": 5, "provinceCode": 10},
+                ("provinceCode",),
+            ),
+        )
+
+    def test_annotates_id_less_records_by_geographic_code_not_none(self) -> None:
+        base_root, candidate_root = self.fixture_roots(
+            {
+                "src/districts.json": [
+                    {"provinceCode": 10, "districtCode": 1001, "districtNameEn": "A"}
+                ]
+            },
+            {
+                "src/districts.json": [
+                    {"provinceCode": 10, "districtCode": 1002, "districtNameEn": "A"}
+                ]
+            },
+        )
+
+        summary = compare_directory_datasets(base_root, candidate_root)
+        districts = summary["src/districts.json"]
+
+        self.assertEqual(
+            [("provinceCode=10", "districtCode: 1001 → 1002")],
+            districts.changed_geographic_identifiers,
+        )
+        self.assertNotIn("id=None", render_summary(summary))
+
+    def test_summarizes_region_province_membership_deltas(self) -> None:
+        base_root, candidate_root = self.fixture_roots(
+            {
+                "src/regions.json": [
+                    {
+                        "regionCode": 1,
+                        "regionNameEn": "North",
+                        "regionNameTh": "เหนือ",
+                        "provinceCodes": [57, 55],
+                    }
+                ]
+            },
+            {
+                "src/regions.json": [
+                    {
+                        "regionCode": 1,
+                        "regionNameEn": "Northern",
+                        "regionNameTh": "เหนือ",
+                        "provinceCodes": [57, 56],
+                    }
+                ]
+            },
+        )
+
+        summary = compare_directory_datasets(base_root, candidate_root)
+        regions = summary["src/regions.json"]
+
+        self.assertEqual(0, regions.added)
+        self.assertEqual(0, regions.removed)
+        self.assertEqual(1, regions.field_changes["english_names"])
+        self.assertEqual((1, 1, 1), regions.region_province_codes_delta)
+        output = render_summary(summary)
+        self.assertIn("### src/regions.json", output)
+        self.assertIn(
+            "- provinceCodes entries: +1 / -1 across 1 changed lists",
+            output,
+        )
 
     def test_compares_current_repository_history_and_cli_output(self) -> None:
         base_sha = self.git("rev-parse", "HEAD^")

@@ -13,6 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `scripts/validate_data.py` now validates `src/regions.json`: exactly six regions, `regionCode` 1–6 and unique, non-empty names, non-empty `provinceCodes`, referential integrity against `provinces.json`, no province in two regions, and full coverage of the 77 provinces.
 - Updated `README.md` to document `regions.json` and its keys.
 
+### Changed
+
+- The CI data-change summary (`scripts/summarize_data_changes.py`) now includes `src/regions.json`: regions pair by `regionCode`, and `provinceCodes` membership deltas are reported as `+added / -removed` entries across changed lists.
+- `AGENTS.md` now describes six datasets and notes that `src/regions.json` is a standalone province-to-region grouping that needs no propagation to other data files.
+
 ## [1.2.1] - 2026-10-28
 
 ### Added

@@ -4,10 +4,11 @@ Thailand geography data, shipped as static JSON under `src/`. Data is the produc
 
 ## Editing data
 
-The five datasets are mutually consistent, and `scripts/validate_data.py` enforces that consistency. Every data change is a multi-file edit:
+The six datasets ship under `src/`; `scripts/validate_data.py` enforces their schema and cross-file consistency. A data change is usually a multi-file edit:
 
 - `geography.json` is a denormalized join of provinces, districts, and subdistricts. A change to any record in `provinces.json`, `districts.json`, or `subdistricts.json` must be propagated to the matching `geography.json` record.
 - `multi-postal-codes.json` is an audit of every subdistrict served by more than one postal code. When a `postalCodes` list gains or loses an entry, update this file so its `subdistrictCode` set stays equal to the set of multi-postal subdistricts.
+- `regions.json` is standalone: a province-to-region grouping. Regions are not an administrative level, carry no DOPA code and no geometry, and are not part of the `geography.json` join. Changes to it need no propagation to other data files.
 
 Do not invent data. Postal codes come from the Thailand Post poster "รหัสไปรษณีย์ทั่วประเทศ จำแนกตามท้องที่" (May 2018); English names come from the Department of Provincial Administration registry (1 September 2023). Cite the source in the commit, and in CHANGELOG.md for a non-obvious value.
 
@@ -20,7 +21,7 @@ python3 -m unittest discover -s tests -v
 python3 scripts/validate_data.py
 ```
 
-`validate_data.py` is the single source of truth for invariants: schema, code widths, referential integrity, postal-code rules, geography/subdistrict set equality, and the multi-postal audit. When it reports a mismatch, fix the data, not the validator.
+`validate_data.py` is the single source of truth for invariants: schema, code widths, referential integrity, postal-code rules, geography/subdistrict set equality, the multi-postal audit, and region coverage of all provinces. When it reports a mismatch, fix the data, not the validator.
 
 Done when both commands exit 0. CI (`.github/workflows/validate-data.yml`) runs the same two commands plus a change summary on every pull request.
 
